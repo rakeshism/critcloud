@@ -1,0 +1,192 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\title{Theory of the Redundancy Inflation Error (RIE):\\ bounds, edge cases and a scale-free decomposition}
+\author{CRITCLOUD repair --- supporting material}
+\date{}
+
+\begin{document}
+\maketitle
+
+\noindent All propositions below are verified numerically by \texttt{check\_rie\_theory.py}
+(2{,}000 random weight vectors and correlation matrices, plus the QWS correlation matrix).
+
+\section{Definitions}
+
+Let $\mathbf{w}\in\Delta^{n-1}=\{\mathbf{w}:w_j\ge 0,\ \sum_j w_j=1\}$ be a weight vector and
+$R=[r_{jk}]$ a correlation matrix of $n\ge 2$ criteria. Write $\tilde R=|R|-I$
+(absolute correlations with a zero diagonal) and $\mathbf{g}=\tilde R\mathbf{w}$, i.e.\
+$g_i=\sum_{l\ne i}w_l|r_{il}|$.
+
+\begin{definition}[RIE]
+$\displaystyle \mathrm{RIE}(\mathbf{w})=\sum_{j<k}w_jw_k|r_{jk}|=\tfrac12\,\mathbf{w}^{\top}\tilde R\,\mathbf{w}.$
+\end{definition}
+
+\begin{definition}[Concentration measures]
+$\mathrm{HHI}(\mathbf{w})=\sum_j w_j^2$, effective number of criteria $N_{\mathrm{eff}}=1/\mathrm{HHI}$,
+Shannon entropy $H(\mathbf{w})=-\sum_j w_j\log w_j$, and $\mathrm{RIE}_{\mathrm{adj}}=\mathrm{RIE}/H$.
+\end{definition}
+
+\begin{definition}[Weighted Mean Redundancy]
+For $\mathrm{HHI}(\mathbf{w})<1$,
+\[
+\mathrm{WMR}(\mathbf{w})=\frac{\sum_{j\ne k}w_jw_k|r_{jk}|}{\sum_{j\ne k}w_jw_k}.
+\]
+WMR is the expected absolute correlation between two \emph{distinct} criteria drawn independently
+with probabilities $\mathbf{w}$.
+\end{definition}
+
+\section{Results}
+
+\begin{proposition}[Bounds]\label{p:bounds}
+For every $\mathbf{w}\in\Delta^{n-1}$,
+\[
+0\;\le\;\mathrm{RIE}(\mathbf{w})\;\le\;\tfrac12\bigl(1-\mathrm{HHI}(\mathbf{w})\bigr)\;\le\;\frac{n-1}{2n}.
+\]
+The first inequality is an equality iff $w_jw_k|r_{jk}|=0$ for all $j\ne k$; the second iff
+$|r_{jk}|=1$ for every pair with $w_jw_k>0$; the third iff $\mathbf{w}=\mathbf{1}/n$.
+\end{proposition}
+\begin{proof}
+All terms $w_jw_k|r_{jk}|$ are non-negative, which gives the lower bound. Since $|r_{jk}|\le1$,
+$2\,\mathrm{RIE}\le\sum_{j\ne k}w_jw_k=(\sum_j w_j)^2-\sum_j w_j^2=1-\mathrm{HHI}$. Finally
+$\mathrm{HHI}\ge 1/n$ by the Cauchy--Schwarz inequality, with equality only at the uniform vector.
+\end{proof}
+
+\begin{remark}
+The original manuscript's ``Property~2'' ($\mathrm{RIE}_{\max}=(n-1)/(2n)$ at equal weights and
+$|r_{jk}|=1$) is the special case of the last two inequalities. The bound
+$\tfrac12(1-\mathrm{HHI})$ is sharper because it holds for every $\mathbf{w}$.
+\end{remark}
+
+\begin{proposition}[Exact effect of moving weight]\label{p:transfer}
+For $j\ne k$ and $0\le\varepsilon\le w_j$, let $\mathbf{w}'=\mathbf{w}+\varepsilon(\mathbf{e}_k-\mathbf{e}_j)$. Then
+\[
+\mathrm{RIE}(\mathbf{w}')=\mathrm{RIE}(\mathbf{w})+\varepsilon\,(g_k-g_j)-\varepsilon^2|r_{jk}|.
+\]
+\end{proposition}
+\begin{proof}
+Expand the quadratic form:
+$\tfrac12(\mathbf{w}+\varepsilon\mathbf{d})^{\top}\tilde R(\mathbf{w}+\varepsilon\mathbf{d})
+=\mathrm{RIE}(\mathbf{w})+\varepsilon\,\mathbf{d}^{\top}\tilde R\mathbf{w}+\tfrac12\varepsilon^2\,\mathbf{d}^{\top}\tilde R\mathbf{d}$
+with $\mathbf{d}=\mathbf{e}_k-\mathbf{e}_j$. Here $\mathbf{d}^{\top}\tilde R\mathbf{w}=g_k-g_j$ and
+$\mathbf{d}^{\top}\tilde R\mathbf{d}=\tilde R_{kk}+\tilde R_{jj}-2\tilde R_{jk}=-2|r_{jk}|$.
+\end{proof}
+
+\begin{corollary}
+Moving weight from criterion $j$ to criterion $k$ lowers RIE whenever $g_k\le g_j$ and $r_{jk}\neq 0$:
+weight should flow towards criteria that are less correlated with the \emph{currently weighted} criteria.
+This replaces the manuscript's ``Property~3'', which changed one product $w_jw_k$ in isolation; that
+is not possible on the simplex.
+\end{corollary}
+
+\begin{proposition}[Invariances]
+RIE, WMR, HHI and $H$ are invariant to (i) relabelling the criteria and (ii) reversing the direction
+of any criterion (cost $\leftrightarrow$ benefit), since reversal changes the sign of $r_{jk}$ but not $|r_{jk}|$.
+\end{proposition}
+\begin{proof}
+(i) Permuting rows and columns of $\tilde R$ together with the entries of $\mathbf{w}$ leaves the
+quadratic form unchanged. (ii) Reversing criterion $j$ multiplies row and column $j$ of $R$ by $-1$.
+\end{proof}
+
+\begin{proposition}[Equal-weight baseline]\label{p:baseline}
+Let $\bar r=\frac{1}{n(n-1)}\sum_{j\ne k}|r_{jk}|$. Then
+$\mathrm{RIE}(\mathbf{1}/n)=\frac{n-1}{2n}\,\bar r$, and
+$\mathrm{RIE}_{\mathrm{norm}}(\mathbf{w})=\mathrm{RIE}(\mathbf{w})/\mathrm{RIE}(\mathbf{1}/n)$ is defined iff $\bar r>0$.
+\end{proposition}
+\begin{proof}
+Substitute $w_j=1/n$: $\mathrm{RIE}=\frac{1}{2n^2}\sum_{j\ne k}|r_{jk}|=\frac{n(n-1)}{2n^2}\bar r$.
+\end{proof}
+
+\begin{remark}
+$\mathrm{RIE}_{\mathrm{norm}}<1$ means ``less redundancy than equal weighting on the same data''.
+It removes the dependence on $n$ and on the overall correlation level, but it still mixes
+concentration and redundancy (see Proposition~\ref{p:decomp}). Raw RIE values must not be compared
+across datasets or across different numbers of criteria.
+\end{remark}
+
+\begin{proposition}[$\mathrm{RIE}_{\mathrm{adj}}$ rewards extreme concentration]\label{p:adj}
+Assume $s_1=\sum_{k\ne1}|r_{1k}|>0$ and let
+$\mathbf{w}_\varepsilon=(1-\varepsilon)\mathbf{e}_1+\frac{\varepsilon}{n-1}\sum_{k\ne1}\mathbf{e}_k$. Then
+\[
+\mathrm{RIE}_{\mathrm{adj}}(\mathbf{w}_\varepsilon)\;\sim\;\frac{s_1}{(n-1)\,\log(1/\varepsilon)}\;\longrightarrow\;0
+\qquad(\varepsilon\to0).
+\]
+\end{proposition}
+\begin{proof}
+$\mathrm{RIE}(\mathbf{w}_\varepsilon)=(1-\varepsilon)\frac{\varepsilon}{n-1}s_1+\frac{\varepsilon^2}{(n-1)^2}\sum_{1<j<k}|r_{jk}|
+=\frac{s_1}{n-1}\varepsilon+O(\varepsilon^2)$, and
+$H(\mathbf{w}_\varepsilon)=-(1-\varepsilon)\log(1-\varepsilon)-\varepsilon\log\frac{\varepsilon}{n-1}
+=\varepsilon\log(1/\varepsilon)+O(\varepsilon)$. Divide.
+\end{proof}
+
+\begin{remark}
+Hence $\mathrm{RIE}_{\mathrm{adj}}$ does \emph{not} penalise sparsity: putting almost all weight on one
+criterion drives it below any balanced vector. On QWS, $\varepsilon=10^{-3}$ already gives
+$\mathrm{RIE}_{\mathrm{adj}}=0.0125$, lower than Entropy-TOPSIS ($0.0165$), the most concentrated
+method in the study. The convergence is slow (logarithmic), which is why moderate concentration
+appears to be penalised. $\mathrm{RIE}_{\mathrm{adj}}$ should be withdrawn.
+\end{remark}
+
+\begin{proposition}[Decomposition into concentration and redundancy]\label{p:decomp}
+For every $\mathbf{w}$ with $\mathrm{HHI}(\mathbf{w})<1$,
+\[
+\mathrm{RIE}(\mathbf{w})=\underbrace{\tfrac12\bigl(1-\mathrm{HHI}(\mathbf{w})\bigr)}_{\text{spread of weights}}\times
+\underbrace{\mathrm{WMR}(\mathbf{w})}_{\text{redundancy of weighted pairs}},
+\qquad 0\le\mathrm{WMR}(\mathbf{w})\le 1,
+\]
+and $\mathrm{WMR}(\mathbf{1}/n)=\bar r$.
+Moreover $\min|r_{jk}|\le\mathrm{WMR}(\mathbf{w})\le\max|r_{jk}|$, where min and max run over pairs
+$j\ne k$ with $w_jw_k>0$.
+\end{proposition}
+\begin{proof}
+The identity follows from $\sum_{j\ne k}w_jw_k=1-\mathrm{HHI}$ and $2\,\mathrm{RIE}=\sum_{j\ne k}w_jw_k|r_{jk}|$.
+WMR is a weighted average of the $|r_{jk}|$ with non-negative weights $w_jw_k$ summing to
+$1-\mathrm{HHI}>0$, which gives the range. At uniform weights all pair weights are equal, so WMR is the plain mean $\bar r$.
+\end{proof}
+
+\begin{remark}[Recommended reporting]
+WMR is bounded in $[0,1]$ and measured in units of correlation, so unlike RIE it can be compared
+across datasets and numbers of criteria. We recommend reporting WMR (redundancy) together with
+$N_{\mathrm{eff}}=1/\mathrm{HHI}$ (concentration) instead of $\mathrm{RIE}_{\mathrm{adj}}$.
+\end{remark}
+
+\section{Application to QWS}
+
+\begin{table}[h]
+\centering
+\caption{RIE decomposed into its two parts on QWS (Option~A BWM vectors).}
+\begin{tabular}{lrrrr}
+\toprule
+Method & RIE & $\tfrac12(1-\mathrm{HHI})$ & WMR & $N_{\mathrm{eff}}$\\
+\midrule
+Equal & 0.0644 & 0.4444 & 0.1449 & 9.00\\
+SD & 0.0620 & 0.4348 & 0.1426 & 7.67\\
+CRITCLOUD ($\alpha=0.5$) & 0.0582 & 0.4383 & 0.1327 & 8.11\\
+CRITIC & 0.0571 & 0.4325 & 0.1321 & 7.41\\
+BWM & 0.0567 & 0.4251 & 0.1334 & 6.68\\
+MEREC & 0.0362 & 0.3674 & 0.0985 & 3.77\\
+Entropy & 0.0218 & 0.3200 & 0.0682 & 2.78\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent The decomposition shows that Entropy's low RIE has two causes: it is concentrated
+($N_{\mathrm{eff}}=2.78$) \emph{and} it weights weakly correlated criteria (WMR $=0.068$).
+CRITIC and CRITCLOUD lower redundancy only slightly relative to equal weighting
+(WMR $0.132$--$0.133$ vs $0.145$) while keeping 7--8 effective criteria.
+
+\begin{remark}[Scope]
+None of these results links RIE or WMR to ranking accuracy. In the ground-truth simulation, lower RIE
+is not consistently associated with higher accuracy (results file S9). Both quantities are
+\emph{descriptive diagnostics} of a weight vector, not measures of decision quality.
+\end{remark}
+
+\end{document}
