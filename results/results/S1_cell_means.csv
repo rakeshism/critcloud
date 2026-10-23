@@ -1,0 +1,913 @@
+theta,m,structure,rho,skewed,method,tau,top5,ndcg10,regret,rie
+dirichlet,40,high,0.6,False,AHP,0.447,0.445,0.857,0.46,0.075
+dirichlet,40,high,0.6,False,BWM,0.432,0.427,0.849,0.46,0.075
+dirichlet,40,high,0.6,False,BWM+Entropy(0.5),0.427,0.422,0.844,0.491,0.075
+dirichlet,40,high,0.6,False,BWM+Equal(0.5),0.439,0.437,0.85,0.462,0.076
+dirichlet,40,high,0.6,False,BWM+Mahalanobis-TOPSIS,0.411,0.412,0.838,0.488,
+dirichlet,40,high,0.6,False,CRITCLOUD(0.25),0.439,0.436,0.852,0.458,0.074
+dirichlet,40,high,0.6,False,CRITCLOUD(0.5),0.438,0.434,0.85,0.468,0.074
+dirichlet,40,high,0.6,False,CRITCLOUD(0.75),0.411,0.414,0.836,0.508,0.074
+dirichlet,40,high,0.6,False,CRITIC,0.339,0.353,0.801,0.61,0.074
+dirichlet,40,high,0.6,False,CRITIC-AHP,0.443,0.442,0.854,0.458,0.072
+dirichlet,40,high,0.6,False,CRITIC-DEMATEL,0.284,0.304,0.769,0.691,0.089
+dirichlet,40,high,0.6,False,Entropy,0.306,0.324,0.78,0.684,0.076
+dirichlet,40,high,0.6,False,Equal,0.34,0.35,0.8,0.607,0.077
+dirichlet,40,high,0.6,False,"GameTheory(CRITIC,BWM)",0.435,0.429,0.85,0.459,0.074
+dirichlet,40,high,0.6,False,MEREC,0.329,0.348,0.792,0.648,0.075
+dirichlet,40,high,0.6,False,Naive-oracle (theta/copies),0.41,0.416,0.836,0.509,0.058
+dirichlet,40,high,0.6,False,OPTCLOUD,0.347,0.363,0.8,0.598,
+dirichlet,40,high,0.6,False,Oracle (best linear),0.447,0.442,0.855,0.46,0.066
+dirichlet,40,high,0.6,False,SD,0.333,0.35,0.797,0.614,0.077
+dirichlet,40,high,0.6,True,AHP,0.432,0.429,0.845,0.486,0.072
+dirichlet,40,high,0.6,True,BWM,0.416,0.41,0.837,0.505,0.072
+dirichlet,40,high,0.6,True,BWM+Entropy(0.5),0.38,0.335,0.788,0.765,0.067
+dirichlet,40,high,0.6,True,BWM+Equal(0.5),0.42,0.412,0.839,0.502,0.073
+dirichlet,40,high,0.6,True,BWM+Mahalanobis-TOPSIS,0.399,0.398,0.828,0.552,
+dirichlet,40,high,0.6,True,CRITCLOUD(0.25),0.421,0.414,0.838,0.498,0.072
+dirichlet,40,high,0.6,True,CRITCLOUD(0.5),0.419,0.416,0.838,0.49,0.072
+dirichlet,40,high,0.6,True,CRITCLOUD(0.75),0.394,0.396,0.825,0.532,0.072
+dirichlet,40,high,0.6,True,CRITIC,0.328,0.345,0.789,0.657,0.072
+dirichlet,40,high,0.6,True,CRITIC-AHP,0.426,0.423,0.842,0.494,0.07
+dirichlet,40,high,0.6,True,CRITIC-DEMATEL,0.291,0.311,0.766,0.722,0.084
+dirichlet,40,high,0.6,True,Entropy,0.253,0.238,0.71,0.904,0.056
+dirichlet,40,high,0.6,True,Equal,0.334,0.348,0.791,0.664,0.074
+dirichlet,40,high,0.6,True,"GameTheory(CRITIC,BWM)",0.417,0.412,0.838,0.505,0.072
+dirichlet,40,high,0.6,True,MEREC,0.289,0.262,0.732,0.898,0.065
+dirichlet,40,high,0.6,True,Naive-oracle (theta/copies),0.396,0.406,0.829,0.54,0.057
+dirichlet,40,high,0.6,True,OPTCLOUD,0.345,0.366,0.797,0.65,
+dirichlet,40,high,0.6,True,Oracle (best linear),0.429,0.435,0.846,0.487,0.063
+dirichlet,40,high,0.6,True,SD,0.325,0.338,0.785,0.675,0.074
+dirichlet,40,high,0.9,False,AHP,0.664,0.652,0.945,0.15,0.116
+dirichlet,40,high,0.9,False,BWM,0.637,0.627,0.936,0.185,0.115
+dirichlet,40,high,0.9,False,BWM+Entropy(0.5),0.607,0.594,0.925,0.229,0.113
+dirichlet,40,high,0.9,False,BWM+Equal(0.5),0.623,0.613,0.931,0.223,0.113
+dirichlet,40,high,0.9,False,BWM+Mahalanobis-TOPSIS,0.598,0.591,0.923,0.227,
+dirichlet,40,high,0.9,False,CRITCLOUD(0.25),0.65,0.638,0.94,0.178,0.109
+dirichlet,40,high,0.9,False,CRITCLOUD(0.5),0.649,0.64,0.938,0.21,0.105
+dirichlet,40,high,0.9,False,CRITCLOUD(0.75),0.599,0.568,0.919,0.257,0.102
+dirichlet,40,high,0.9,False,CRITIC,0.486,0.48,0.872,0.388,0.1
+dirichlet,40,high,0.9,False,CRITIC-AHP,0.683,0.666,0.952,0.134,0.103
+dirichlet,40,high,0.9,False,CRITIC-DEMATEL,0.285,0.333,0.769,0.647,0.176
+dirichlet,40,high,0.9,False,Entropy,0.413,0.424,0.837,0.475,0.115
+dirichlet,40,high,0.9,False,Equal,0.443,0.457,0.849,0.443,0.116
+dirichlet,40,high,0.9,False,"GameTheory(CRITIC,BWM)",0.647,0.64,0.939,0.181,0.109
+dirichlet,40,high,0.9,False,MEREC,0.457,0.466,0.86,0.396,0.109
+dirichlet,40,high,0.9,False,Naive-oracle (theta/copies),0.667,0.646,0.947,0.145,0.075
+dirichlet,40,high,0.9,False,OPTCLOUD,0.454,0.463,0.849,0.436,
+dirichlet,40,high,0.9,False,Oracle (best linear),0.681,0.662,0.951,0.127,0.078
+dirichlet,40,high,0.9,False,SD,0.435,0.444,0.847,0.457,0.116
+dirichlet,40,high,0.9,True,AHP,0.625,0.628,0.933,0.181,0.111
+dirichlet,40,high,0.9,True,BWM,0.605,0.61,0.925,0.205,0.11
+dirichlet,40,high,0.9,True,BWM+Entropy(0.5),0.56,0.478,0.869,0.506,0.094
+dirichlet,40,high,0.9,True,BWM+Equal(0.5),0.596,0.601,0.919,0.234,0.107
+dirichlet,40,high,0.9,True,BWM+Mahalanobis-TOPSIS,0.573,0.58,0.913,0.245,
+dirichlet,40,high,0.9,True,CRITCLOUD(0.25),0.616,0.623,0.929,0.194,0.105
+dirichlet,40,high,0.9,True,CRITCLOUD(0.5),0.613,0.622,0.927,0.198,0.101
+dirichlet,40,high,0.9,True,CRITCLOUD(0.75),0.563,0.563,0.909,0.262,0.099
+dirichlet,40,high,0.9,True,CRITIC,0.455,0.461,0.858,0.445,0.097
+dirichlet,40,high,0.9,True,CRITIC-AHP,0.636,0.644,0.938,0.155,0.102
+dirichlet,40,high,0.9,True,CRITIC-DEMATEL,0.307,0.334,0.769,0.727,0.155
+dirichlet,40,high,0.9,True,Entropy,0.368,0.344,0.772,0.749,0.073
+dirichlet,40,high,0.9,True,Equal,0.436,0.444,0.838,0.53,0.108
+dirichlet,40,high,0.9,True,"GameTheory(CRITIC,BWM)",0.614,0.622,0.928,0.192,0.105
+dirichlet,40,high,0.9,True,MEREC,0.41,0.371,0.793,0.724,0.087
+dirichlet,40,high,0.9,True,Naive-oracle (theta/copies),0.624,0.627,0.935,0.181,0.074
+dirichlet,40,high,0.9,True,OPTCLOUD,0.46,0.487,0.853,0.46,
+dirichlet,40,high,0.9,True,Oracle (best linear),0.637,0.639,0.939,0.168,0.077
+dirichlet,40,high,0.9,True,SD,0.427,0.437,0.838,0.507,0.109
+dirichlet,40,moderate,0.6,False,AHP,0.437,0.422,0.851,0.415,0.065
+dirichlet,40,moderate,0.6,False,BWM,0.417,0.417,0.845,0.439,0.065
+dirichlet,40,moderate,0.6,False,BWM+Entropy(0.5),0.422,0.423,0.843,0.443,0.065
+dirichlet,40,moderate,0.6,False,BWM+Equal(0.5),0.432,0.427,0.85,0.43,0.065
+dirichlet,40,moderate,0.6,False,BWM+Mahalanobis-TOPSIS,0.4,0.4,0.835,0.469,
+dirichlet,40,moderate,0.6,False,CRITCLOUD(0.25),0.428,0.422,0.847,0.443,0.065
+dirichlet,40,moderate,0.6,False,CRITCLOUD(0.5),0.43,0.426,0.848,0.44,0.065
+dirichlet,40,moderate,0.6,False,CRITCLOUD(0.75),0.406,0.412,0.834,0.483,0.064
+dirichlet,40,moderate,0.6,False,CRITIC,0.331,0.35,0.797,0.584,0.064
+dirichlet,40,moderate,0.6,False,CRITIC-AHP,0.43,0.416,0.847,0.437,0.063
+dirichlet,40,moderate,0.6,False,CRITIC-DEMATEL,0.31,0.332,0.784,0.594,0.071
+dirichlet,40,moderate,0.6,False,Entropy,0.3,0.334,0.779,0.648,0.065
+dirichlet,40,moderate,0.6,False,Equal,0.34,0.358,0.8,0.56,0.065
+dirichlet,40,moderate,0.6,False,"GameTheory(CRITIC,BWM)",0.42,0.419,0.846,0.44,0.065
+dirichlet,40,moderate,0.6,False,MEREC,0.323,0.346,0.793,0.606,0.065
+dirichlet,40,moderate,0.6,False,Naive-oracle (theta/copies),0.413,0.415,0.839,0.448,0.058
+dirichlet,40,moderate,0.6,False,OPTCLOUD,0.337,0.364,0.798,0.592,
+dirichlet,40,moderate,0.6,False,Oracle (best linear),0.432,0.424,0.849,0.422,0.062
+dirichlet,40,moderate,0.6,False,SD,0.33,0.35,0.797,0.574,0.065
+dirichlet,40,moderate,0.6,True,AHP,0.424,0.443,0.845,0.445,0.063
+dirichlet,40,moderate,0.6,True,BWM,0.411,0.439,0.841,0.46,0.063
+dirichlet,40,moderate,0.6,True,BWM+Entropy(0.5),0.377,0.342,0.788,0.733,0.059
+dirichlet,40,moderate,0.6,True,BWM+Equal(0.5),0.421,0.444,0.846,0.449,0.064
+dirichlet,40,moderate,0.6,True,BWM+Mahalanobis-TOPSIS,0.392,0.416,0.828,0.514,
+dirichlet,40,moderate,0.6,True,CRITCLOUD(0.25),0.417,0.442,0.843,0.456,0.064
+dirichlet,40,moderate,0.6,True,CRITCLOUD(0.5),0.418,0.44,0.846,0.438,0.064
+dirichlet,40,moderate,0.6,True,CRITCLOUD(0.75),0.393,0.416,0.832,0.489,0.064
+dirichlet,40,moderate,0.6,True,CRITIC,0.322,0.348,0.792,0.607,0.063
+dirichlet,40,moderate,0.6,True,CRITIC-AHP,0.418,0.439,0.844,0.426,0.062
+dirichlet,40,moderate,0.6,True,CRITIC-DEMATEL,0.303,0.336,0.779,0.63,0.071
+dirichlet,40,moderate,0.6,True,Entropy,0.246,0.23,0.705,0.884,0.049
+dirichlet,40,moderate,0.6,True,Equal,0.33,0.36,0.793,0.646,0.064
+dirichlet,40,moderate,0.6,True,"GameTheory(CRITIC,BWM)",0.413,0.441,0.842,0.454,0.063
+dirichlet,40,moderate,0.6,True,MEREC,0.283,0.254,0.729,0.88,0.057
+dirichlet,40,moderate,0.6,True,Naive-oracle (theta/copies),0.41,0.423,0.836,0.479,0.058
+dirichlet,40,moderate,0.6,True,OPTCLOUD,0.328,0.358,0.793,0.604,
+dirichlet,40,moderate,0.6,True,Oracle (best linear),0.425,0.443,0.844,0.448,0.061
+dirichlet,40,moderate,0.6,True,SD,0.321,0.348,0.79,0.606,0.065
+dirichlet,40,moderate,0.9,False,AHP,0.686,0.665,0.953,0.125,0.088
+dirichlet,40,moderate,0.9,False,BWM,0.662,0.638,0.945,0.137,0.087
+dirichlet,40,moderate,0.9,False,BWM+Entropy(0.5),0.653,0.626,0.937,0.2,0.083
+dirichlet,40,moderate,0.9,False,BWM+Equal(0.5),0.676,0.648,0.946,0.168,0.083
+dirichlet,40,moderate,0.9,False,BWM+Mahalanobis-TOPSIS,0.62,0.603,0.929,0.18,
+dirichlet,40,moderate,0.9,False,CRITCLOUD(0.25),0.677,0.655,0.949,0.134,0.084
+dirichlet,40,moderate,0.9,False,CRITCLOUD(0.5),0.677,0.646,0.946,0.175,0.082
+dirichlet,40,moderate,0.9,False,CRITCLOUD(0.75),0.615,0.587,0.922,0.24,0.08
+dirichlet,40,moderate,0.9,False,CRITIC,0.475,0.462,0.861,0.426,0.079
+dirichlet,40,moderate,0.9,False,CRITIC-AHP,0.683,0.66,0.952,0.13,0.085
+dirichlet,40,moderate,0.9,False,CRITIC-DEMATEL,0.411,0.412,0.828,0.503,0.094
+dirichlet,40,moderate,0.9,False,Entropy,0.431,0.421,0.839,0.472,0.081
+dirichlet,40,moderate,0.9,False,Equal,0.48,0.472,0.864,0.413,0.082
+dirichlet,40,moderate,0.9,False,"GameTheory(CRITIC,BWM)",0.667,0.64,0.947,0.136,0.086
+dirichlet,40,moderate,0.9,False,MEREC,0.468,0.457,0.857,0.429,0.081
+dirichlet,40,moderate,0.9,False,Naive-oracle (theta/copies),0.669,0.646,0.947,0.134,0.075
+dirichlet,40,moderate,0.9,False,OPTCLOUD,0.446,0.456,0.84,0.452,
+dirichlet,40,moderate,0.9,False,Oracle (best linear),0.68,0.657,0.95,0.133,0.077
+dirichlet,40,moderate,0.9,False,SD,0.467,0.458,0.858,0.418,0.082
+dirichlet,40,moderate,0.9,True,AHP,0.64,0.656,0.938,0.169,0.085
+dirichlet,40,moderate,0.9,True,BWM,0.616,0.626,0.929,0.196,0.084
+dirichlet,40,moderate,0.9,True,BWM+Entropy(0.5),0.563,0.474,0.859,0.534,0.071
+dirichlet,40,moderate,0.9,True,BWM+Equal(0.5),0.627,0.637,0.932,0.19,0.08
+dirichlet,40,moderate,0.9,True,BWM+Mahalanobis-TOPSIS,0.577,0.587,0.913,0.271,
+dirichlet,40,moderate,0.9,True,CRITCLOUD(0.25),0.627,0.639,0.933,0.183,0.081
+dirichlet,40,moderate,0.9,True,CRITCLOUD(0.5),0.625,0.632,0.932,0.195,0.079
+dirichlet,40,moderate,0.9,True,CRITCLOUD(0.75),0.575,0.585,0.914,0.244,0.078
+dirichlet,40,moderate,0.9,True,CRITIC,0.459,0.465,0.857,0.426,0.077
+dirichlet,40,moderate,0.9,True,CRITIC-AHP,0.636,0.646,0.938,0.158,0.083
+dirichlet,40,moderate,0.9,True,CRITIC-DEMATEL,0.4,0.421,0.829,0.482,0.092
+dirichlet,40,moderate,0.9,True,Entropy,0.36,0.306,0.753,0.753,0.055
+dirichlet,40,moderate,0.9,True,Equal,0.465,0.474,0.859,0.448,0.079
+dirichlet,40,moderate,0.9,True,"GameTheory(CRITIC,BWM)",0.62,0.631,0.93,0.193,0.083
+dirichlet,40,moderate,0.9,True,MEREC,0.406,0.333,0.78,0.736,0.066
+dirichlet,40,moderate,0.9,True,Naive-oracle (theta/copies),0.634,0.632,0.933,0.197,0.073
+dirichlet,40,moderate,0.9,True,OPTCLOUD,0.446,0.474,0.845,0.427,
+dirichlet,40,moderate,0.9,True,Oracle (best linear),0.643,0.645,0.937,0.186,0.075
+dirichlet,40,moderate,0.9,True,SD,0.454,0.462,0.856,0.431,0.08
+dirichlet,40,none,0.6,False,AHP,0.39,0.409,0.828,0.405,0.053
+dirichlet,40,none,0.6,False,BWM,0.376,0.396,0.82,0.435,0.053
+dirichlet,40,none,0.6,False,BWM+Entropy(0.5),0.373,0.375,0.815,0.46,0.056
+dirichlet,40,none,0.6,False,BWM+Equal(0.5),0.388,0.393,0.824,0.431,0.056
+dirichlet,40,none,0.6,False,BWM+Mahalanobis-TOPSIS,0.366,0.386,0.816,0.434,
+dirichlet,40,none,0.6,False,CRITCLOUD(0.25),0.383,0.398,0.822,0.437,0.054
+dirichlet,40,none,0.6,False,CRITCLOUD(0.5),0.384,0.386,0.821,0.439,0.056
+dirichlet,40,none,0.6,False,CRITCLOUD(0.75),0.358,0.345,0.807,0.459,0.056
+dirichlet,40,none,0.6,False,CRITIC,0.283,0.301,0.767,0.554,0.056
+dirichlet,40,none,0.6,False,CRITIC-AHP,0.384,0.403,0.825,0.417,0.052
+dirichlet,40,none,0.6,False,CRITIC-DEMATEL,0.27,0.298,0.763,0.543,0.062
+dirichlet,40,none,0.6,False,Entropy,0.249,0.283,0.748,0.59,0.057
+dirichlet,40,none,0.6,False,Equal,0.294,0.302,0.773,0.547,0.057
+dirichlet,40,none,0.6,False,"GameTheory(CRITIC,BWM)",0.378,0.395,0.821,0.434,0.053
+dirichlet,40,none,0.6,False,MEREC,0.274,0.296,0.763,0.566,0.057
+dirichlet,40,none,0.6,False,Naive-oracle (theta/copies),0.387,0.401,0.827,0.399,0.052
+dirichlet,40,none,0.6,False,OPTCLOUD,0.265,0.297,0.754,0.596,
+dirichlet,40,none,0.6,False,Oracle (best linear),0.387,0.401,0.827,0.399,0.052
+dirichlet,40,none,0.6,False,SD,0.284,0.302,0.767,0.552,0.057
+dirichlet,40,none,0.6,True,AHP,0.37,0.378,0.817,0.436,0.052
+dirichlet,40,none,0.6,True,BWM,0.355,0.36,0.811,0.435,0.053
+dirichlet,40,none,0.6,True,BWM+Entropy(0.5),0.322,0.286,0.756,0.687,0.052
+dirichlet,40,none,0.6,True,BWM+Equal(0.5),0.362,0.374,0.814,0.433,0.056
+dirichlet,40,none,0.6,True,BWM+Mahalanobis-TOPSIS,0.346,0.348,0.804,0.468,
+dirichlet,40,none,0.6,True,CRITCLOUD(0.25),0.36,0.374,0.813,0.438,0.054
+dirichlet,40,none,0.6,True,CRITCLOUD(0.5),0.36,0.374,0.815,0.423,0.055
+dirichlet,40,none,0.6,True,CRITCLOUD(0.75),0.333,0.361,0.801,0.456,0.056
+dirichlet,40,none,0.6,True,CRITIC,0.261,0.303,0.758,0.587,0.056
+dirichlet,40,none,0.6,True,CRITIC-AHP,0.363,0.372,0.814,0.435,0.051
+dirichlet,40,none,0.6,True,CRITIC-DEMATEL,0.243,0.302,0.747,0.633,0.062
+dirichlet,40,none,0.6,True,Entropy,0.194,0.198,0.685,0.795,0.046
+dirichlet,40,none,0.6,True,Equal,0.271,0.316,0.764,0.573,0.057
+dirichlet,40,none,0.6,True,"GameTheory(CRITIC,BWM)",0.356,0.366,0.811,0.435,0.053
+dirichlet,40,none,0.6,True,MEREC,0.228,0.224,0.706,0.78,0.052
+dirichlet,40,none,0.6,True,Naive-oracle (theta/copies),0.37,0.379,0.817,0.441,0.051
+dirichlet,40,none,0.6,True,OPTCLOUD,0.251,0.274,0.75,0.59,
+dirichlet,40,none,0.6,True,Oracle (best linear),0.37,0.379,0.817,0.441,0.051
+dirichlet,40,none,0.6,True,SD,0.26,0.306,0.758,0.584,0.057
+dirichlet,40,none,0.9,False,AHP,0.665,0.659,0.947,0.118,0.053
+dirichlet,40,none,0.9,False,BWM,0.638,0.622,0.936,0.142,0.053
+dirichlet,40,none,0.9,False,BWM+Entropy(0.5),0.634,0.615,0.936,0.158,0.056
+dirichlet,40,none,0.9,False,BWM+Equal(0.5),0.664,0.652,0.946,0.131,0.056
+dirichlet,40,none,0.9,False,BWM+Mahalanobis-TOPSIS,0.61,0.594,0.926,0.163,
+dirichlet,40,none,0.9,False,CRITCLOUD(0.25),0.654,0.64,0.942,0.131,0.054
+dirichlet,40,none,0.9,False,CRITCLOUD(0.5),0.656,0.644,0.944,0.139,0.055
+dirichlet,40,none,0.9,False,CRITCLOUD(0.75),0.597,0.583,0.921,0.196,0.056
+dirichlet,40,none,0.9,False,CRITIC,0.454,0.468,0.862,0.318,0.056
+dirichlet,40,none,0.9,False,CRITIC-AHP,0.648,0.636,0.941,0.123,0.052
+dirichlet,40,none,0.9,False,CRITIC-DEMATEL,0.433,0.441,0.852,0.332,0.062
+dirichlet,40,none,0.9,False,Entropy,0.402,0.421,0.833,0.392,0.056
+dirichlet,40,none,0.9,False,Equal,0.475,0.486,0.871,0.313,0.057
+dirichlet,40,none,0.9,False,"GameTheory(CRITIC,BWM)",0.642,0.623,0.937,0.141,0.053
+dirichlet,40,none,0.9,False,MEREC,0.444,0.456,0.856,0.342,0.057
+dirichlet,40,none,0.9,False,Naive-oracle (theta/copies),0.659,0.65,0.944,0.125,0.051
+dirichlet,40,none,0.9,False,OPTCLOUD,0.415,0.449,0.831,0.417,
+dirichlet,40,none,0.9,False,Oracle (best linear),0.659,0.65,0.944,0.125,0.051
+dirichlet,40,none,0.9,False,SD,0.456,0.47,0.864,0.312,0.057
+dirichlet,40,none,0.9,True,AHP,0.615,0.604,0.93,0.178,0.052
+dirichlet,40,none,0.9,True,BWM,0.582,0.574,0.916,0.209,0.053
+dirichlet,40,none,0.9,True,BWM+Entropy(0.5),0.525,0.419,0.831,0.583,0.052
+dirichlet,40,none,0.9,True,BWM+Equal(0.5),0.6,0.596,0.924,0.197,0.056
+dirichlet,40,none,0.9,True,BWM+Mahalanobis-TOPSIS,0.569,0.555,0.907,0.249,
+dirichlet,40,none,0.9,True,CRITCLOUD(0.25),0.595,0.584,0.921,0.193,0.054
+dirichlet,40,none,0.9,True,CRITCLOUD(0.5),0.593,0.59,0.922,0.193,0.055
+dirichlet,40,none,0.9,True,CRITCLOUD(0.75),0.544,0.552,0.903,0.233,0.056
+dirichlet,40,none,0.9,True,CRITIC,0.422,0.44,0.845,0.371,0.056
+dirichlet,40,none,0.9,True,CRITIC-AHP,0.6,0.592,0.925,0.163,0.052
+dirichlet,40,none,0.9,True,CRITIC-DEMATEL,0.39,0.409,0.828,0.407,0.062
+dirichlet,40,none,0.9,True,Entropy,0.311,0.26,0.723,0.728,0.045
+dirichlet,40,none,0.9,True,Equal,0.439,0.456,0.852,0.369,0.057
+dirichlet,40,none,0.9,True,"GameTheory(CRITIC,BWM)",0.586,0.577,0.918,0.202,0.053
+dirichlet,40,none,0.9,True,MEREC,0.367,0.294,0.753,0.71,0.052
+dirichlet,40,none,0.9,True,Naive-oracle (theta/copies),0.611,0.597,0.929,0.175,0.051
+dirichlet,40,none,0.9,True,OPTCLOUD,0.418,0.44,0.835,0.394,
+dirichlet,40,none,0.9,True,Oracle (best linear),0.611,0.597,0.929,0.175,0.051
+dirichlet,40,none,0.9,True,SD,0.421,0.44,0.844,0.378,0.057
+dirichlet,200,high,0.6,False,AHP,0.453,0.279,0.846,0.552,0.054
+dirichlet,200,high,0.6,False,BWM,0.433,0.264,0.835,0.6,0.054
+dirichlet,200,high,0.6,False,BWM+Entropy(0.5),0.436,0.267,0.834,0.579,0.051
+dirichlet,200,high,0.6,False,BWM+Equal(0.5),0.443,0.271,0.837,0.577,0.052
+dirichlet,200,high,0.6,False,BWM+Mahalanobis-TOPSIS,0.426,0.25,0.833,0.582,
+dirichlet,200,high,0.6,False,CRITCLOUD(0.25),0.443,0.271,0.84,0.556,0.052
+dirichlet,200,high,0.6,False,CRITCLOUD(0.5),0.446,0.272,0.838,0.584,0.05
+dirichlet,200,high,0.6,False,CRITCLOUD(0.75),0.422,0.24,0.821,0.638,0.049
+dirichlet,200,high,0.6,False,CRITIC,0.349,0.186,0.784,0.749,0.049
+dirichlet,200,high,0.6,False,CRITIC-AHP,0.452,0.282,0.846,0.555,0.051
+dirichlet,200,high,0.6,False,CRITIC-DEMATEL,0.235,0.14,0.714,1.002,0.083
+dirichlet,200,high,0.6,False,Entropy,0.322,0.179,0.768,0.783,0.051
+dirichlet,200,high,0.6,False,Equal,0.345,0.193,0.782,0.753,0.052
+dirichlet,200,high,0.6,False,"GameTheory(CRITIC,BWM)",0.437,0.27,0.836,0.594,0.053
+dirichlet,200,high,0.6,False,MEREC,0.339,0.187,0.775,0.76,0.051
+dirichlet,200,high,0.6,False,Naive-oracle (theta/copies),0.41,0.251,0.828,0.595,0.034
+dirichlet,200,high,0.6,False,OPTCLOUD,0.394,0.231,0.81,0.671,
+dirichlet,200,high,0.6,False,Oracle (best linear),0.448,0.283,0.845,0.536,0.043
+dirichlet,200,high,0.6,False,SD,0.341,0.186,0.779,0.76,0.051
+dirichlet,200,high,0.6,True,AHP,0.419,0.265,0.827,0.636,0.048
+dirichlet,200,high,0.6,True,BWM,0.406,0.259,0.821,0.66,0.048
+dirichlet,200,high,0.6,True,BWM+Entropy(0.5),0.395,0.133,0.73,1.033,0.038
+dirichlet,200,high,0.6,True,BWM+Equal(0.5),0.414,0.264,0.823,0.641,0.046
+dirichlet,200,high,0.6,True,BWM+Mahalanobis-TOPSIS,0.401,0.226,0.803,0.774,
+dirichlet,200,high,0.6,True,CRITCLOUD(0.25),0.413,0.266,0.826,0.636,0.047
+dirichlet,200,high,0.6,True,CRITCLOUD(0.5),0.413,0.266,0.826,0.625,0.046
+dirichlet,200,high,0.6,True,CRITCLOUD(0.75),0.388,0.243,0.812,0.662,0.046
+dirichlet,200,high,0.6,True,CRITIC,0.324,0.185,0.771,0.821,0.046
+dirichlet,200,high,0.6,True,CRITIC-AHP,0.412,0.269,0.828,0.585,0.048
+dirichlet,200,high,0.6,True,CRITIC-DEMATEL,0.236,0.144,0.717,0.98,0.069
+dirichlet,200,high,0.6,True,Entropy,0.261,0.092,0.659,1.194,0.024
+dirichlet,200,high,0.6,True,Equal,0.327,0.192,0.764,0.869,0.046
+dirichlet,200,high,0.6,True,"GameTheory(CRITIC,BWM)",0.41,0.263,0.825,0.643,0.047
+dirichlet,200,high,0.6,True,MEREC,0.303,0.094,0.669,1.197,0.034
+dirichlet,200,high,0.6,True,Naive-oracle (theta/copies),0.386,0.232,0.809,0.684,0.032
+dirichlet,200,high,0.6,True,OPTCLOUD,0.38,0.224,0.797,0.717,
+dirichlet,200,high,0.6,True,Oracle (best linear),0.418,0.26,0.828,0.631,0.039
+dirichlet,200,high,0.6,True,SD,0.319,0.185,0.768,0.821,0.048
+dirichlet,200,high,0.9,False,AHP,0.671,0.538,0.945,0.17,0.097
+dirichlet,200,high,0.9,False,BWM,0.644,0.504,0.936,0.202,0.096
+dirichlet,200,high,0.9,False,BWM+Entropy(0.5),0.624,0.471,0.924,0.266,0.089
+dirichlet,200,high,0.9,False,BWM+Equal(0.5),0.633,0.478,0.929,0.258,0.09
+dirichlet,200,high,0.9,False,BWM+Mahalanobis-TOPSIS,0.621,0.486,0.927,0.242,
+dirichlet,200,high,0.9,False,CRITCLOUD(0.25),0.66,0.522,0.94,0.196,0.088
+dirichlet,200,high,0.9,False,CRITCLOUD(0.5),0.665,0.511,0.938,0.224,0.082
+dirichlet,200,high,0.9,False,CRITCLOUD(0.75),0.618,0.442,0.917,0.308,0.077
+dirichlet,200,high,0.9,False,CRITIC,0.502,0.329,0.868,0.497,0.074
+dirichlet,200,high,0.9,False,CRITIC-AHP,0.697,0.579,0.954,0.154,0.083
+dirichlet,200,high,0.9,False,CRITIC-DEMATEL,0.255,0.165,0.723,0.965,0.211
+dirichlet,200,high,0.9,False,Entropy,0.434,0.286,0.834,0.606,0.09
+dirichlet,200,high,0.9,False,Equal,0.459,0.301,0.849,0.528,0.091
+dirichlet,200,high,0.9,False,"GameTheory(CRITIC,BWM)",0.657,0.516,0.94,0.192,0.088
+dirichlet,200,high,0.9,False,MEREC,0.464,0.298,0.849,0.555,0.087
+dirichlet,200,high,0.9,False,Naive-oracle (theta/copies),0.658,0.537,0.943,0.177,0.053
+dirichlet,200,high,0.9,False,OPTCLOUD,0.497,0.34,0.862,0.468,
+dirichlet,200,high,0.9,False,Oracle (best linear),0.674,0.557,0.949,0.168,0.058
+dirichlet,200,high,0.9,False,SD,0.452,0.297,0.845,0.549,0.091
+dirichlet,200,high,0.9,True,AHP,0.614,0.481,0.923,0.3,0.082
+dirichlet,200,high,0.9,True,BWM,0.592,0.455,0.913,0.329,0.082
+dirichlet,200,high,0.9,True,BWM+Entropy(0.5),0.57,0.252,0.803,0.808,0.061
+dirichlet,200,high,0.9,True,BWM+Equal(0.5),0.585,0.437,0.904,0.376,0.078
+dirichlet,200,high,0.9,True,BWM+Mahalanobis-TOPSIS,0.575,0.414,0.896,0.477,
+dirichlet,200,high,0.9,True,CRITCLOUD(0.25),0.602,0.463,0.917,0.307,0.077
+dirichlet,200,high,0.9,True,CRITCLOUD(0.5),0.599,0.463,0.916,0.298,0.074
+dirichlet,200,high,0.9,True,CRITCLOUD(0.75),0.552,0.41,0.896,0.364,0.072
+dirichlet,200,high,0.9,True,CRITIC,0.451,0.291,0.84,0.588,0.071
+dirichlet,200,high,0.9,True,CRITIC-AHP,0.619,0.499,0.931,0.226,0.077
+dirichlet,200,high,0.9,True,CRITIC-DEMATEL,0.251,0.154,0.715,1.025,0.171
+dirichlet,200,high,0.9,True,Entropy,0.367,0.164,0.713,1.036,0.036
+dirichlet,200,high,0.9,True,Equal,0.426,0.265,0.81,0.74,0.079
+dirichlet,200,high,0.9,True,"GameTheory(CRITIC,BWM)",0.601,0.463,0.916,0.317,0.077
+dirichlet,200,high,0.9,True,MEREC,0.414,0.172,0.725,1.008,0.053
+dirichlet,200,high,0.9,True,Naive-oracle (theta/copies),0.603,0.487,0.924,0.295,0.046
+dirichlet,200,high,0.9,True,OPTCLOUD,0.488,0.332,0.85,0.543,
+dirichlet,200,high,0.9,True,Oracle (best linear),0.615,0.498,0.929,0.272,0.05
+dirichlet,200,high,0.9,True,SD,0.418,0.26,0.82,0.663,0.083
+dirichlet,200,moderate,0.6,False,AHP,0.443,0.268,0.839,0.531,0.039
+dirichlet,200,moderate,0.6,False,BWM,0.426,0.25,0.829,0.569,0.039
+dirichlet,200,moderate,0.6,False,BWM+Entropy(0.5),0.432,0.249,0.832,0.543,0.037
+dirichlet,200,moderate,0.6,False,BWM+Equal(0.5),0.44,0.254,0.836,0.554,0.037
+dirichlet,200,moderate,0.6,False,BWM+Mahalanobis-TOPSIS,0.42,0.245,0.827,0.588,
+dirichlet,200,moderate,0.6,False,CRITCLOUD(0.25),0.435,0.257,0.834,0.562,0.038
+dirichlet,200,moderate,0.6,False,CRITCLOUD(0.5),0.438,0.256,0.835,0.545,0.037
+dirichlet,200,moderate,0.6,False,CRITCLOUD(0.75),0.413,0.232,0.82,0.589,0.036
+dirichlet,200,moderate,0.6,False,CRITIC,0.336,0.182,0.779,0.749,0.036
+dirichlet,200,moderate,0.6,False,CRITIC-AHP,0.439,0.27,0.839,0.518,0.039
+dirichlet,200,moderate,0.6,False,CRITIC-DEMATEL,0.294,0.152,0.752,0.831,0.042
+dirichlet,200,moderate,0.6,False,Entropy,0.311,0.164,0.764,0.768,0.036
+dirichlet,200,moderate,0.6,False,Equal,0.342,0.183,0.781,0.731,0.037
+dirichlet,200,moderate,0.6,False,"GameTheory(CRITIC,BWM)",0.428,0.252,0.831,0.566,0.038
+dirichlet,200,moderate,0.6,False,MEREC,0.332,0.172,0.773,0.771,0.036
+dirichlet,200,moderate,0.6,False,Naive-oracle (theta/copies),0.42,0.258,0.828,0.553,0.033
+dirichlet,200,moderate,0.6,False,OPTCLOUD,0.353,0.205,0.783,0.725,
+dirichlet,200,moderate,0.6,False,Oracle (best linear),0.44,0.266,0.838,0.523,0.037
+dirichlet,200,moderate,0.6,False,SD,0.334,0.181,0.778,0.753,0.037
+dirichlet,200,moderate,0.6,True,AHP,0.412,0.258,0.826,0.607,0.037
+dirichlet,200,moderate,0.6,True,BWM,0.398,0.244,0.818,0.638,0.037
+dirichlet,200,moderate,0.6,True,BWM+Entropy(0.5),0.388,0.127,0.724,0.97,0.03
+dirichlet,200,moderate,0.6,True,BWM+Equal(0.5),0.407,0.256,0.823,0.638,0.035
+dirichlet,200,moderate,0.6,True,BWM+Mahalanobis-TOPSIS,0.396,0.222,0.803,0.736,
+dirichlet,200,moderate,0.6,True,CRITCLOUD(0.25),0.404,0.253,0.823,0.626,0.036
+dirichlet,200,moderate,0.6,True,CRITCLOUD(0.5),0.404,0.254,0.824,0.594,0.035
+dirichlet,200,moderate,0.6,True,CRITCLOUD(0.75),0.377,0.23,0.809,0.647,0.035
+dirichlet,200,moderate,0.6,True,CRITIC,0.31,0.171,0.764,0.788,0.035
+dirichlet,200,moderate,0.6,True,CRITIC-AHP,0.403,0.261,0.825,0.584,0.037
+dirichlet,200,moderate,0.6,True,CRITIC-DEMATEL,0.272,0.146,0.745,0.862,0.041
+dirichlet,200,moderate,0.6,True,Entropy,0.251,0.088,0.658,1.091,0.02
+dirichlet,200,moderate,0.6,True,Equal,0.319,0.175,0.768,0.781,0.035
+dirichlet,200,moderate,0.6,True,"GameTheory(CRITIC,BWM)",0.401,0.249,0.82,0.633,0.036
+dirichlet,200,moderate,0.6,True,MEREC,0.293,0.091,0.666,1.091,0.027
+dirichlet,200,moderate,0.6,True,Naive-oracle (theta/copies),0.395,0.247,0.817,0.63,0.032
+dirichlet,200,moderate,0.6,True,OPTCLOUD,0.34,0.196,0.781,0.738,
+dirichlet,200,moderate,0.6,True,Oracle (best linear),0.412,0.264,0.827,0.605,0.035
+dirichlet,200,moderate,0.6,True,SD,0.309,0.167,0.763,0.795,0.035
+dirichlet,200,moderate,0.9,False,AHP,0.689,0.565,0.952,0.138,0.062
+dirichlet,200,moderate,0.9,False,BWM,0.661,0.518,0.941,0.165,0.061
+dirichlet,200,moderate,0.9,False,BWM+Entropy(0.5),0.662,0.508,0.935,0.215,0.055
+dirichlet,200,moderate,0.9,False,BWM+Equal(0.5),0.679,0.526,0.941,0.196,0.055
+dirichlet,200,moderate,0.9,False,BWM+Mahalanobis-TOPSIS,0.632,0.481,0.931,0.194,
+dirichlet,200,moderate,0.9,False,CRITCLOUD(0.25),0.678,0.533,0.945,0.157,0.056
+dirichlet,200,moderate,0.9,False,CRITCLOUD(0.5),0.682,0.528,0.942,0.2,0.054
+dirichlet,200,moderate,0.9,False,CRITCLOUD(0.75),0.629,0.443,0.92,0.272,0.052
+dirichlet,200,moderate,0.9,False,CRITIC,0.497,0.318,0.866,0.442,0.051
+dirichlet,200,moderate,0.9,False,CRITIC-AHP,0.689,0.561,0.952,0.145,0.059
+dirichlet,200,moderate,0.9,False,CRITIC-DEMATEL,0.381,0.238,0.803,0.65,0.071
+dirichlet,200,moderate,0.9,False,Entropy,0.457,0.291,0.846,0.51,0.053
+dirichlet,200,moderate,0.9,False,Equal,0.495,0.319,0.865,0.451,0.053
+dirichlet,200,moderate,0.9,False,"GameTheory(CRITIC,BWM)",0.665,0.523,0.943,0.161,0.059
+dirichlet,200,moderate,0.9,False,MEREC,0.483,0.309,0.858,0.491,0.053
+dirichlet,200,moderate,0.9,False,Naive-oracle (theta/copies),0.673,0.544,0.949,0.157,0.049
+dirichlet,200,moderate,0.9,False,OPTCLOUD,0.514,0.373,0.867,0.436,
+dirichlet,200,moderate,0.9,False,Oracle (best linear),0.683,0.557,0.952,0.148,0.051
+dirichlet,200,moderate,0.9,False,SD,0.487,0.309,0.86,0.45,0.053
+dirichlet,200,moderate,0.9,True,AHP,0.633,0.509,0.933,0.238,0.057
+dirichlet,200,moderate,0.9,True,BWM,0.617,0.486,0.926,0.257,0.056
+dirichlet,200,moderate,0.9,True,BWM+Entropy(0.5),0.596,0.236,0.8,0.756,0.04
+dirichlet,200,moderate,0.9,True,BWM+Equal(0.5),0.625,0.502,0.927,0.276,0.051
+dirichlet,200,moderate,0.9,True,BWM+Mahalanobis-TOPSIS,0.6,0.418,0.9,0.417,
+dirichlet,200,moderate,0.9,True,CRITCLOUD(0.25),0.627,0.506,0.93,0.248,0.053
+dirichlet,200,moderate,0.9,True,CRITCLOUD(0.5),0.623,0.512,0.93,0.247,0.051
+dirichlet,200,moderate,0.9,True,CRITCLOUD(0.75),0.57,0.45,0.907,0.316,0.05
+dirichlet,200,moderate,0.9,True,CRITIC,0.456,0.306,0.847,0.496,0.049
+dirichlet,200,moderate,0.9,True,CRITIC-AHP,0.625,0.519,0.935,0.19,0.057
+dirichlet,200,moderate,0.9,True,CRITIC-DEMATEL,0.34,0.21,0.784,0.673,0.072
+dirichlet,200,moderate,0.9,True,Entropy,0.366,0.145,0.702,0.98,0.024
+dirichlet,200,moderate,0.9,True,Equal,0.457,0.31,0.845,0.51,0.049
+dirichlet,200,moderate,0.9,True,"GameTheory(CRITIC,BWM)",0.621,0.493,0.929,0.246,0.054
+dirichlet,200,moderate,0.9,True,MEREC,0.421,0.151,0.716,0.96,0.033
+dirichlet,200,moderate,0.9,True,Naive-oracle (theta/copies),0.623,0.502,0.93,0.238,0.045
+dirichlet,200,moderate,0.9,True,OPTCLOUD,0.505,0.372,0.866,0.467,
+dirichlet,200,moderate,0.9,True,Oracle (best linear),0.631,0.513,0.933,0.237,0.047
+dirichlet,200,moderate,0.9,True,SD,0.447,0.301,0.843,0.521,0.051
+dirichlet,200,none,0.6,False,AHP,0.39,0.222,0.811,0.501,0.023
+dirichlet,200,none,0.6,False,BWM,0.377,0.211,0.802,0.514,0.023
+dirichlet,200,none,0.6,False,BWM+Entropy(0.5),0.382,0.217,0.804,0.526,0.025
+dirichlet,200,none,0.6,False,BWM+Equal(0.5),0.391,0.226,0.808,0.513,0.025
+dirichlet,200,none,0.6,False,BWM+Mahalanobis-TOPSIS,0.375,0.202,0.8,0.525,
+dirichlet,200,none,0.6,False,CRITCLOUD(0.25),0.385,0.218,0.806,0.508,0.024
+dirichlet,200,none,0.6,False,CRITCLOUD(0.5),0.389,0.227,0.807,0.515,0.025
+dirichlet,200,none,0.6,False,CRITCLOUD(0.75),0.366,0.204,0.793,0.559,0.025
+dirichlet,200,none,0.6,False,CRITIC,0.295,0.152,0.749,0.659,0.025
+dirichlet,200,none,0.6,False,CRITIC-AHP,0.385,0.222,0.808,0.511,0.023
+dirichlet,200,none,0.6,False,CRITIC-DEMATEL,0.274,0.137,0.739,0.704,0.028
+dirichlet,200,none,0.6,False,Entropy,0.271,0.136,0.739,0.68,0.025
+dirichlet,200,none,0.6,False,Equal,0.302,0.151,0.752,0.683,0.025
+dirichlet,200,none,0.6,False,"GameTheory(CRITIC,BWM)",0.379,0.211,0.804,0.505,0.023
+dirichlet,200,none,0.6,False,MEREC,0.291,0.14,0.748,0.697,0.025
+dirichlet,200,none,0.6,False,Naive-oracle (theta/copies),0.386,0.218,0.809,0.506,0.023
+dirichlet,200,none,0.6,False,OPTCLOUD,0.292,0.156,0.746,0.671,
+dirichlet,200,none,0.6,False,Oracle (best linear),0.386,0.218,0.809,0.506,0.023
+dirichlet,200,none,0.6,False,SD,0.295,0.152,0.749,0.669,0.025
+dirichlet,200,none,0.6,True,AHP,0.356,0.207,0.798,0.575,0.023
+dirichlet,200,none,0.6,True,BWM,0.343,0.188,0.791,0.593,0.023
+dirichlet,200,none,0.6,True,BWM+Entropy(0.5),0.334,0.102,0.697,0.92,0.023
+dirichlet,200,none,0.6,True,BWM+Equal(0.5),0.354,0.191,0.794,0.611,0.025
+dirichlet,200,none,0.6,True,BWM+Mahalanobis-TOPSIS,0.347,0.171,0.775,0.69,
+dirichlet,200,none,0.6,True,CRITCLOUD(0.25),0.349,0.192,0.795,0.583,0.024
+dirichlet,200,none,0.6,True,CRITCLOUD(0.5),0.349,0.189,0.795,0.576,0.025
+dirichlet,200,none,0.6,True,CRITCLOUD(0.75),0.325,0.179,0.779,0.619,0.025
+dirichlet,200,none,0.6,True,CRITIC,0.262,0.132,0.736,0.728,0.025
+dirichlet,200,none,0.6,True,CRITIC-AHP,0.345,0.206,0.796,0.56,0.023
+dirichlet,200,none,0.6,True,CRITIC-DEMATEL,0.241,0.121,0.723,0.765,0.028
+dirichlet,200,none,0.6,True,Entropy,0.205,0.068,0.634,1.016,0.019
+dirichlet,200,none,0.6,True,Equal,0.274,0.142,0.739,0.755,0.025
+dirichlet,200,none,0.6,True,"GameTheory(CRITIC,BWM)",0.346,0.19,0.793,0.589,0.024
+dirichlet,200,none,0.6,True,MEREC,0.247,0.07,0.641,1.016,0.022
+dirichlet,200,none,0.6,True,Naive-oracle (theta/copies),0.355,0.202,0.8,0.591,0.023
+dirichlet,200,none,0.6,True,OPTCLOUD,0.266,0.131,0.737,0.732,
+dirichlet,200,none,0.6,True,Oracle (best linear),0.355,0.202,0.8,0.591,0.023
+dirichlet,200,none,0.6,True,SD,0.262,0.129,0.736,0.724,0.025
+dirichlet,200,none,0.9,False,AHP,0.666,0.538,0.943,0.157,0.023
+dirichlet,200,none,0.9,False,BWM,0.64,0.502,0.932,0.196,0.023
+dirichlet,200,none,0.9,False,BWM+Entropy(0.5),0.646,0.484,0.927,0.223,0.025
+dirichlet,200,none,0.9,False,BWM+Equal(0.5),0.669,0.511,0.937,0.193,0.025
+dirichlet,200,none,0.9,False,BWM+Mahalanobis-TOPSIS,0.635,0.494,0.93,0.193,
+dirichlet,200,none,0.9,False,CRITCLOUD(0.25),0.658,0.518,0.937,0.183,0.024
+dirichlet,200,none,0.9,False,CRITCLOUD(0.5),0.663,0.506,0.935,0.196,0.025
+dirichlet,200,none,0.9,False,CRITCLOUD(0.75),0.608,0.427,0.911,0.281,0.025
+dirichlet,200,none,0.9,False,CRITIC,0.463,0.288,0.848,0.458,0.025
+dirichlet,200,none,0.9,False,CRITIC-AHP,0.655,0.523,0.939,0.171,0.023
+dirichlet,200,none,0.9,False,CRITIC-DEMATEL,0.427,0.26,0.832,0.496,0.028
+dirichlet,200,none,0.9,False,Entropy,0.417,0.252,0.824,0.509,0.025
+dirichlet,200,none,0.9,False,Equal,0.477,0.301,0.854,0.458,0.025
+dirichlet,200,none,0.9,False,"GameTheory(CRITIC,BWM)",0.643,0.505,0.933,0.191,0.023
+dirichlet,200,none,0.9,False,MEREC,0.456,0.284,0.842,0.478,0.025
+dirichlet,200,none,0.9,False,Naive-oracle (theta/copies),0.659,0.537,0.942,0.163,0.022
+dirichlet,200,none,0.9,False,OPTCLOUD,0.489,0.337,0.852,0.435,
+dirichlet,200,none,0.9,False,Oracle (best linear),0.659,0.537,0.942,0.163,0.022
+dirichlet,200,none,0.9,False,SD,0.463,0.287,0.848,0.464,0.025
+dirichlet,200,none,0.9,True,AHP,0.596,0.456,0.918,0.24,0.024
+dirichlet,200,none,0.9,True,BWM,0.571,0.44,0.906,0.275,0.024
+dirichlet,200,none,0.9,True,BWM+Entropy(0.5),0.555,0.176,0.761,0.758,0.023
+dirichlet,200,none,0.9,True,BWM+Equal(0.5),0.593,0.464,0.914,0.271,0.025
+dirichlet,200,none,0.9,True,BWM+Mahalanobis-TOPSIS,0.576,0.388,0.885,0.402,
+dirichlet,200,none,0.9,True,CRITCLOUD(0.25),0.584,0.458,0.913,0.249,0.024
+dirichlet,200,none,0.9,True,CRITCLOUD(0.5),0.585,0.455,0.914,0.239,0.025
+dirichlet,200,none,0.9,True,CRITCLOUD(0.75),0.535,0.4,0.893,0.283,0.025
+dirichlet,200,none,0.9,True,CRITIC,0.417,0.257,0.828,0.477,0.025
+dirichlet,200,none,0.9,True,CRITIC-AHP,0.577,0.45,0.916,0.206,0.023
+dirichlet,200,none,0.9,True,CRITIC-DEMATEL,0.389,0.231,0.809,0.515,0.028
+dirichlet,200,none,0.9,True,Entropy,0.322,0.102,0.673,0.926,0.017
+dirichlet,200,none,0.9,True,Equal,0.436,0.276,0.832,0.494,0.025
+dirichlet,200,none,0.9,True,"GameTheory(CRITIC,BWM)",0.577,0.45,0.909,0.26,0.024
+dirichlet,200,none,0.9,True,MEREC,0.392,0.106,0.685,0.904,0.022
+dirichlet,200,none,0.9,True,Naive-oracle (theta/copies),0.591,0.458,0.918,0.235,0.023
+dirichlet,200,none,0.9,True,OPTCLOUD,0.438,0.317,0.838,0.438,
+dirichlet,200,none,0.9,True,Oracle (best linear),0.591,0.458,0.918,0.235,0.023
+dirichlet,200,none,0.9,True,SD,0.418,0.257,0.828,0.478,0.025
+uniform,40,high,0.6,False,AHP,0.438,0.417,0.851,0.346,0.077
+uniform,40,high,0.6,False,BWM,0.397,0.385,0.83,0.402,0.077
+uniform,40,high,0.6,False,BWM+Entropy(0.5),0.419,0.401,0.84,0.374,0.077
+uniform,40,high,0.6,False,BWM+Equal(0.5),0.43,0.409,0.846,0.368,0.077
+uniform,40,high,0.6,False,BWM+Mahalanobis-TOPSIS,0.364,0.357,0.81,0.458,
+uniform,40,high,0.6,False,CRITCLOUD(0.25),0.416,0.409,0.839,0.374,0.076
+uniform,40,high,0.6,False,CRITCLOUD(0.5),0.432,0.414,0.847,0.363,0.076
+uniform,40,high,0.6,False,CRITCLOUD(0.75),0.442,0.418,0.852,0.355,0.075
+uniform,40,high,0.6,False,CRITIC,0.443,0.426,0.854,0.347,0.074
+uniform,40,high,0.6,False,CRITIC-AHP,0.435,0.421,0.85,0.348,0.074
+uniform,40,high,0.6,False,CRITIC-DEMATEL,0.366,0.372,0.82,0.418,0.09
+uniform,40,high,0.6,False,Entropy,0.403,0.396,0.832,0.392,0.076
+uniform,40,high,0.6,False,Equal,0.445,0.43,0.855,0.344,0.077
+uniform,40,high,0.6,False,"GameTheory(CRITIC,BWM)",0.408,0.4,0.836,0.38,0.076
+uniform,40,high,0.6,False,MEREC,0.435,0.419,0.848,0.365,0.076
+uniform,40,high,0.6,False,Naive-oracle (theta/copies),0.376,0.384,0.822,0.396,0.061
+uniform,40,high,0.6,False,OPTCLOUD,0.358,0.355,0.81,0.467,
+uniform,40,high,0.6,False,Oracle (best linear),0.447,0.431,0.854,0.34,0.068
+uniform,40,high,0.6,False,SD,0.434,0.422,0.85,0.35,0.077
+uniform,40,high,0.6,True,AHP,0.415,0.398,0.84,0.4,0.072
+uniform,40,high,0.6,True,BWM,0.379,0.368,0.819,0.453,0.071
+uniform,40,high,0.6,True,BWM+Entropy(0.5),0.373,0.312,0.786,0.613,0.066
+uniform,40,high,0.6,True,BWM+Equal(0.5),0.409,0.393,0.836,0.412,0.072
+uniform,40,high,0.6,True,BWM+Mahalanobis-TOPSIS,0.348,0.346,0.797,0.555,
+uniform,40,high,0.6,True,CRITCLOUD(0.25),0.396,0.383,0.829,0.422,0.071
+uniform,40,high,0.6,True,CRITCLOUD(0.5),0.409,0.394,0.838,0.4,0.071
+uniform,40,high,0.6,True,CRITCLOUD(0.75),0.417,0.409,0.842,0.393,0.071
+uniform,40,high,0.6,True,CRITIC,0.418,0.408,0.843,0.373,0.07
+uniform,40,high,0.6,True,CRITIC-AHP,0.408,0.397,0.838,0.394,0.07
+uniform,40,high,0.6,True,CRITIC-DEMATEL,0.357,0.35,0.809,0.466,0.083
+uniform,40,high,0.6,True,Entropy,0.333,0.274,0.754,0.638,0.054
+uniform,40,high,0.6,True,Equal,0.423,0.405,0.844,0.385,0.072
+uniform,40,high,0.6,True,"GameTheory(CRITIC,BWM)",0.39,0.38,0.826,0.431,0.071
+uniform,40,high,0.6,True,MEREC,0.375,0.3,0.78,0.627,0.063
+uniform,40,high,0.6,True,Naive-oracle (theta/copies),0.352,0.368,0.807,0.507,0.058
+uniform,40,high,0.6,True,OPTCLOUD,0.343,0.342,0.798,0.504,
+uniform,40,high,0.6,True,Oracle (best linear),0.42,0.416,0.84,0.411,0.064
+uniform,40,high,0.6,True,SD,0.412,0.4,0.839,0.395,0.073
+uniform,40,high,0.9,False,AHP,0.596,0.572,0.922,0.154,0.114
+uniform,40,high,0.9,False,BWM,0.558,0.541,0.906,0.193,0.114
+uniform,40,high,0.9,False,BWM+Entropy(0.5),0.575,0.562,0.912,0.187,0.115
+uniform,40,high,0.9,False,BWM+Equal(0.5),0.588,0.562,0.918,0.171,0.115
+uniform,40,high,0.9,False,BWM+Mahalanobis-TOPSIS,0.496,0.493,0.883,0.245,
+uniform,40,high,0.9,False,CRITCLOUD(0.25),0.594,0.576,0.919,0.173,0.11
+uniform,40,high,0.9,False,CRITCLOUD(0.5),0.629,0.605,0.933,0.142,0.107
+uniform,40,high,0.9,False,CRITCLOUD(0.75),0.658,0.634,0.943,0.122,0.103
+uniform,40,high,0.9,False,CRITIC,0.673,0.648,0.946,0.117,0.1
+uniform,40,high,0.9,False,CRITIC-AHP,0.66,0.64,0.943,0.131,0.099
+uniform,40,high,0.9,False,CRITIC-DEMATEL,0.371,0.378,0.821,0.369,0.176
+uniform,40,high,0.9,False,Entropy,0.56,0.548,0.904,0.207,0.115
+uniform,40,high,0.9,False,Equal,0.6,0.567,0.924,0.154,0.115
+uniform,40,high,0.9,False,"GameTheory(CRITIC,BWM)",0.599,0.581,0.922,0.167,0.109
+uniform,40,high,0.9,False,MEREC,0.623,0.597,0.93,0.151,0.108
+uniform,40,high,0.9,False,Naive-oracle (theta/copies),0.62,0.602,0.931,0.14,0.071
+uniform,40,high,0.9,False,OPTCLOUD,0.448,0.433,0.851,0.33,
+uniform,40,high,0.9,False,Oracle (best linear),0.648,0.636,0.941,0.116,0.075
+uniform,40,high,0.9,False,SD,0.591,0.566,0.921,0.15,0.115
+uniform,40,high,0.9,True,AHP,0.57,0.538,0.897,0.277,0.107
+uniform,40,high,0.9,True,BWM,0.531,0.52,0.884,0.31,0.106
+uniform,40,high,0.9,True,BWM+Entropy(0.5),0.528,0.436,0.851,0.442,0.095
+uniform,40,high,0.9,True,BWM+Equal(0.5),0.563,0.54,0.896,0.274,0.107
+uniform,40,high,0.9,True,BWM+Mahalanobis-TOPSIS,0.481,0.47,0.86,0.401,
+uniform,40,high,0.9,True,CRITCLOUD(0.25),0.561,0.552,0.899,0.259,0.104
+uniform,40,high,0.9,True,CRITCLOUD(0.5),0.588,0.584,0.912,0.22,0.102
+uniform,40,high,0.9,True,CRITCLOUD(0.75),0.609,0.606,0.921,0.199,0.099
+uniform,40,high,0.9,True,CRITIC,0.618,0.608,0.926,0.181,0.097
+uniform,40,high,0.9,True,CRITIC-AHP,0.606,0.588,0.919,0.196,0.096
+uniform,40,high,0.9,True,CRITIC-DEMATEL,0.378,0.38,0.814,0.452,0.154
+uniform,40,high,0.9,True,Entropy,0.471,0.376,0.813,0.484,0.074
+uniform,40,high,0.9,True,Equal,0.577,0.545,0.9,0.264,0.107
+uniform,40,high,0.9,True,"GameTheory(CRITIC,BWM)",0.562,0.548,0.899,0.258,0.103
+uniform,40,high,0.9,True,MEREC,0.54,0.418,0.844,0.457,0.087
+uniform,40,high,0.9,True,Naive-oracle (theta/copies),0.569,0.55,0.901,0.294,0.07
+uniform,40,high,0.9,True,OPTCLOUD,0.441,0.45,0.843,0.403,
+uniform,40,high,0.9,True,Oracle (best linear),0.592,0.576,0.911,0.27,0.073
+uniform,40,high,0.9,True,SD,0.565,0.552,0.899,0.244,0.108
+uniform,40,moderate,0.6,False,AHP,0.444,0.451,0.858,0.292,0.066
+uniform,40,moderate,0.6,False,BWM,0.396,0.414,0.836,0.329,0.065
+uniform,40,moderate,0.6,False,BWM+Entropy(0.5),0.421,0.426,0.846,0.315,0.066
+uniform,40,moderate,0.6,False,BWM+Equal(0.5),0.436,0.448,0.855,0.303,0.066
+uniform,40,moderate,0.6,False,BWM+Mahalanobis-TOPSIS,0.355,0.375,0.815,0.37,
+uniform,40,moderate,0.6,False,CRITCLOUD(0.25),0.416,0.431,0.846,0.32,0.065
+uniform,40,moderate,0.6,False,CRITCLOUD(0.5),0.433,0.448,0.853,0.305,0.065
+uniform,40,moderate,0.6,False,CRITCLOUD(0.75),0.442,0.446,0.857,0.291,0.065
+uniform,40,moderate,0.6,False,CRITIC,0.441,0.448,0.857,0.295,0.065
+uniform,40,moderate,0.6,False,CRITIC-AHP,0.432,0.444,0.854,0.297,0.065
+uniform,40,moderate,0.6,False,CRITIC-DEMATEL,0.409,0.417,0.842,0.328,0.072
+uniform,40,moderate,0.6,False,Entropy,0.4,0.409,0.834,0.346,0.065
+uniform,40,moderate,0.6,False,Equal,0.454,0.46,0.862,0.293,0.066
+uniform,40,moderate,0.6,False,"GameTheory(CRITIC,BWM)",0.406,0.42,0.84,0.326,0.065
+uniform,40,moderate,0.6,False,MEREC,0.433,0.441,0.852,0.317,0.065
+uniform,40,moderate,0.6,False,Naive-oracle (theta/copies),0.4,0.41,0.836,0.349,0.061
+uniform,40,moderate,0.6,False,OPTCLOUD,0.338,0.357,0.799,0.449,
+uniform,40,moderate,0.6,False,Oracle (best linear),0.454,0.458,0.863,0.286,0.064
+uniform,40,moderate,0.6,False,SD,0.44,0.446,0.858,0.286,0.066
+uniform,40,moderate,0.6,True,AHP,0.41,0.412,0.84,0.368,0.064
+uniform,40,moderate,0.6,True,BWM,0.368,0.385,0.815,0.416,0.063
+uniform,40,moderate,0.6,True,BWM+Entropy(0.5),0.359,0.309,0.772,0.601,0.058
+uniform,40,moderate,0.6,True,BWM+Equal(0.5),0.404,0.414,0.837,0.37,0.064
+uniform,40,moderate,0.6,True,BWM+Mahalanobis-TOPSIS,0.334,0.343,0.79,0.513,
+uniform,40,moderate,0.6,True,CRITCLOUD(0.25),0.385,0.399,0.825,0.391,0.063
+uniform,40,moderate,0.6,True,CRITCLOUD(0.5),0.4,0.417,0.835,0.367,0.063
+uniform,40,moderate,0.6,True,CRITCLOUD(0.75),0.407,0.422,0.838,0.359,0.063
+uniform,40,moderate,0.6,True,CRITIC,0.406,0.41,0.837,0.352,0.063
+uniform,40,moderate,0.6,True,CRITIC-AHP,0.397,0.395,0.832,0.373,0.063
+uniform,40,moderate,0.6,True,CRITIC-DEMATEL,0.378,0.39,0.823,0.406,0.07
+uniform,40,moderate,0.6,True,Entropy,0.309,0.254,0.735,0.637,0.047
+uniform,40,moderate,0.6,True,Equal,0.42,0.423,0.845,0.35,0.064
+uniform,40,moderate,0.6,True,"GameTheory(CRITIC,BWM)",0.378,0.389,0.822,0.394,0.063
+uniform,40,moderate,0.6,True,MEREC,0.36,0.285,0.763,0.626,0.056
+uniform,40,moderate,0.6,True,Naive-oracle (theta/copies),0.369,0.366,0.81,0.461,0.06
+uniform,40,moderate,0.6,True,OPTCLOUD,0.32,0.344,0.791,0.461,
+uniform,40,moderate,0.6,True,Oracle (best linear),0.419,0.417,0.842,0.373,0.062
+uniform,40,moderate,0.6,True,SD,0.406,0.406,0.838,0.356,0.064
+uniform,40,moderate,0.9,False,AHP,0.67,0.657,0.947,0.115,0.082
+uniform,40,moderate,0.9,False,BWM,0.596,0.579,0.918,0.16,0.081
+uniform,40,moderate,0.9,False,BWM+Entropy(0.5),0.627,0.606,0.93,0.141,0.081
+uniform,40,moderate,0.9,False,BWM+Equal(0.5),0.656,0.64,0.941,0.126,0.082
+uniform,40,moderate,0.9,False,BWM+Mahalanobis-TOPSIS,0.509,0.5,0.881,0.256,
+uniform,40,moderate,0.9,False,CRITCLOUD(0.25),0.63,0.61,0.931,0.14,0.081
+uniform,40,moderate,0.9,False,CRITCLOUD(0.5),0.66,0.641,0.942,0.121,0.08
+uniform,40,moderate,0.9,False,CRITCLOUD(0.75),0.679,0.654,0.948,0.113,0.08
+uniform,40,moderate,0.9,False,CRITIC,0.682,0.659,0.949,0.108,0.079
+uniform,40,moderate,0.9,False,CRITIC-AHP,0.664,0.648,0.945,0.121,0.079
+uniform,40,moderate,0.9,False,CRITIC-DEMATEL,0.552,0.543,0.901,0.205,0.093
+uniform,40,moderate,0.9,False,Entropy,0.588,0.571,0.916,0.161,0.081
+uniform,40,moderate,0.9,False,Equal,0.686,0.664,0.952,0.106,0.082
+uniform,40,moderate,0.9,False,"GameTheory(CRITIC,BWM)",0.616,0.599,0.926,0.151,0.08
+uniform,40,moderate,0.9,False,MEREC,0.653,0.628,0.939,0.123,0.08
+uniform,40,moderate,0.9,False,Naive-oracle (theta/copies),0.652,0.636,0.942,0.105,0.07
+uniform,40,moderate,0.9,False,OPTCLOUD,0.458,0.46,0.86,0.308,
+uniform,40,moderate,0.9,False,Oracle (best linear),0.681,0.66,0.95,0.097,0.072
+uniform,40,moderate,0.9,False,SD,0.663,0.637,0.943,0.128,0.082
+uniform,40,moderate,0.9,True,AHP,0.621,0.595,0.93,0.16,0.079
+uniform,40,moderate,0.9,True,BWM,0.564,0.542,0.905,0.21,0.078
+uniform,40,moderate,0.9,True,BWM+Entropy(0.5),0.55,0.417,0.852,0.431,0.07
+uniform,40,moderate,0.9,True,BWM+Equal(0.5),0.613,0.589,0.926,0.169,0.079
+uniform,40,moderate,0.9,True,BWM+Mahalanobis-TOPSIS,0.494,0.474,0.869,0.351,
+uniform,40,moderate,0.9,True,CRITCLOUD(0.25),0.591,0.568,0.918,0.176,0.078
+uniform,40,moderate,0.9,True,CRITCLOUD(0.5),0.613,0.593,0.926,0.16,0.078
+uniform,40,moderate,0.9,True,CRITCLOUD(0.75),0.626,0.612,0.932,0.147,0.077
+uniform,40,moderate,0.9,True,CRITIC,0.626,0.611,0.932,0.145,0.077
+uniform,40,moderate,0.9,True,CRITIC-AHP,0.612,0.591,0.926,0.159,0.077
+uniform,40,moderate,0.9,True,CRITIC-DEMATEL,0.514,0.509,0.889,0.228,0.092
+uniform,40,moderate,0.9,True,Entropy,0.472,0.332,0.8,0.469,0.057
+uniform,40,moderate,0.9,True,Equal,0.636,0.616,0.936,0.145,0.079
+uniform,40,moderate,0.9,True,"GameTheory(CRITIC,BWM)",0.582,0.562,0.914,0.181,0.078
+uniform,40,moderate,0.9,True,MEREC,0.544,0.379,0.838,0.44,0.067
+uniform,40,moderate,0.9,True,Naive-oracle (theta/copies),0.593,0.561,0.912,0.237,0.068
+uniform,40,moderate,0.9,True,OPTCLOUD,0.45,0.453,0.863,0.269,
+uniform,40,moderate,0.9,True,Oracle (best linear),0.618,0.587,0.923,0.214,0.07
+uniform,40,moderate,0.9,True,SD,0.613,0.597,0.928,0.145,0.08
+uniform,40,none,0.6,False,AHP,0.4,0.382,0.827,0.326,0.057
+uniform,40,none,0.6,False,BWM,0.346,0.352,0.802,0.363,0.056
+uniform,40,none,0.6,False,BWM+Entropy(0.5),0.373,0.368,0.814,0.341,0.057
+uniform,40,none,0.6,False,BWM+Equal(0.5),0.389,0.384,0.822,0.327,0.057
+uniform,40,none,0.6,False,BWM+Mahalanobis-TOPSIS,0.317,0.325,0.785,0.388,
+uniform,40,none,0.6,False,CRITCLOUD(0.25),0.366,0.367,0.812,0.338,0.056
+uniform,40,none,0.6,False,CRITCLOUD(0.5),0.384,0.383,0.821,0.327,0.056
+uniform,40,none,0.6,False,CRITCLOUD(0.75),0.394,0.388,0.826,0.32,0.056
+uniform,40,none,0.6,False,CRITIC,0.394,0.386,0.826,0.316,0.056
+uniform,40,none,0.6,False,CRITIC-AHP,0.385,0.372,0.821,0.321,0.056
+uniform,40,none,0.6,False,CRITIC-DEMATEL,0.368,0.368,0.812,0.329,0.062
+uniform,40,none,0.6,False,Entropy,0.351,0.345,0.804,0.336,0.056
+uniform,40,none,0.6,False,Equal,0.409,0.396,0.833,0.309,0.057
+uniform,40,none,0.6,False,"GameTheory(CRITIC,BWM)",0.355,0.362,0.806,0.355,0.056
+uniform,40,none,0.6,False,MEREC,0.387,0.379,0.82,0.327,0.057
+uniform,40,none,0.6,False,Naive-oracle (theta/copies),0.409,0.396,0.833,0.309,0.057
+uniform,40,none,0.6,False,OPTCLOUD,0.286,0.298,0.766,0.432,
+uniform,40,none,0.6,False,Oracle (best linear),0.409,0.396,0.833,0.309,0.057
+uniform,40,none,0.6,False,SD,0.394,0.386,0.825,0.32,0.057
+uniform,40,none,0.6,True,AHP,0.364,0.362,0.812,0.331,0.057
+uniform,40,none,0.6,True,BWM,0.315,0.322,0.784,0.381,0.056
+uniform,40,none,0.6,True,BWM+Entropy(0.5),0.303,0.255,0.743,0.51,0.054
+uniform,40,none,0.6,True,BWM+Equal(0.5),0.353,0.349,0.807,0.34,0.057
+uniform,40,none,0.6,True,BWM+Mahalanobis-TOPSIS,0.294,0.298,0.766,0.449,
+uniform,40,none,0.6,True,CRITCLOUD(0.25),0.334,0.334,0.797,0.356,0.057
+uniform,40,none,0.6,True,CRITCLOUD(0.5),0.351,0.352,0.807,0.343,0.057
+uniform,40,none,0.6,True,CRITCLOUD(0.75),0.359,0.355,0.811,0.322,0.056
+uniform,40,none,0.6,True,CRITIC,0.358,0.358,0.81,0.316,0.056
+uniform,40,none,0.6,True,CRITIC-AHP,0.349,0.353,0.806,0.326,0.056
+uniform,40,none,0.6,True,CRITIC-DEMATEL,0.336,0.344,0.798,0.342,0.062
+uniform,40,none,0.6,True,Entropy,0.253,0.218,0.707,0.528,0.046
+uniform,40,none,0.6,True,Equal,0.374,0.368,0.819,0.318,0.057
+uniform,40,none,0.6,True,"GameTheory(CRITIC,BWM)",0.326,0.331,0.791,0.366,0.056
+uniform,40,none,0.6,True,MEREC,0.306,0.247,0.736,0.515,0.053
+uniform,40,none,0.6,True,Naive-oracle (theta/copies),0.374,0.368,0.819,0.318,0.057
+uniform,40,none,0.6,True,OPTCLOUD,0.262,0.3,0.765,0.404,
+uniform,40,none,0.6,True,Oracle (best linear),0.374,0.368,0.819,0.318,0.057
+uniform,40,none,0.6,True,SD,0.358,0.36,0.811,0.316,0.057
+uniform,40,none,0.9,False,AHP,0.669,0.628,0.943,0.095,0.057
+uniform,40,none,0.9,False,BWM,0.556,0.538,0.905,0.148,0.056
+uniform,40,none,0.9,False,BWM+Entropy(0.5),0.606,0.583,0.923,0.123,0.057
+uniform,40,none,0.9,False,BWM+Equal(0.5),0.644,0.621,0.937,0.11,0.057
+uniform,40,none,0.9,False,BWM+Mahalanobis-TOPSIS,0.498,0.491,0.88,0.195,
+uniform,40,none,0.9,False,CRITCLOUD(0.25),0.596,0.575,0.921,0.127,0.056
+uniform,40,none,0.9,False,CRITCLOUD(0.5),0.633,0.608,0.933,0.112,0.056
+uniform,40,none,0.9,False,CRITCLOUD(0.75),0.656,0.625,0.939,0.104,0.056
+uniform,40,none,0.9,False,CRITIC,0.655,0.612,0.938,0.108,0.056
+uniform,40,none,0.9,False,CRITIC-AHP,0.633,0.6,0.931,0.119,0.056
+uniform,40,none,0.9,False,CRITIC-DEMATEL,0.604,0.583,0.923,0.129,0.062
+uniform,40,none,0.9,False,Entropy,0.561,0.535,0.902,0.157,0.056
+uniform,40,none,0.9,False,Equal,0.698,0.659,0.952,0.086,0.057
+uniform,40,none,0.9,False,"GameTheory(CRITIC,BWM)",0.574,0.555,0.912,0.136,0.056
+uniform,40,none,0.9,False,MEREC,0.638,0.602,0.932,0.124,0.057
+uniform,40,none,0.9,False,Naive-oracle (theta/copies),0.698,0.659,0.952,0.086,0.057
+uniform,40,none,0.9,False,OPTCLOUD,0.452,0.429,0.853,0.248,
+uniform,40,none,0.9,False,Oracle (best linear),0.698,0.659,0.952,0.086,0.057
+uniform,40,none,0.9,False,SD,0.657,0.616,0.938,0.108,0.057
+uniform,40,none,0.9,True,AHP,0.608,0.594,0.925,0.136,0.057
+uniform,40,none,0.9,True,BWM,0.525,0.5,0.887,0.211,0.057
+uniform,40,none,0.9,True,BWM+Entropy(0.5),0.509,0.363,0.826,0.404,0.055
+uniform,40,none,0.9,True,BWM+Equal(0.5),0.595,0.582,0.919,0.153,0.057
+uniform,40,none,0.9,True,BWM+Mahalanobis-TOPSIS,0.48,0.458,0.858,0.315,
+uniform,40,none,0.9,True,CRITCLOUD(0.25),0.558,0.54,0.902,0.18,0.057
+uniform,40,none,0.9,True,CRITCLOUD(0.5),0.585,0.577,0.916,0.153,0.057
+uniform,40,none,0.9,True,CRITCLOUD(0.75),0.599,0.596,0.925,0.129,0.057
+uniform,40,none,0.9,True,CRITIC,0.597,0.594,0.924,0.138,0.057
+uniform,40,none,0.9,True,CRITIC-AHP,0.58,0.576,0.917,0.15,0.056
+uniform,40,none,0.9,True,CRITIC-DEMATEL,0.558,0.548,0.906,0.165,0.063
+uniform,40,none,0.9,True,Entropy,0.421,0.288,0.771,0.444,0.047
+uniform,40,none,0.9,True,Equal,0.631,0.619,0.936,0.111,0.057
+uniform,40,none,0.9,True,"GameTheory(CRITIC,BWM)",0.544,0.524,0.897,0.186,0.057
+uniform,40,none,0.9,True,MEREC,0.507,0.332,0.813,0.414,0.054
+uniform,40,none,0.9,True,Naive-oracle (theta/copies),0.631,0.619,0.936,0.111,0.057
+uniform,40,none,0.9,True,OPTCLOUD,0.428,0.444,0.848,0.271,
+uniform,40,none,0.9,True,Oracle (best linear),0.631,0.619,0.936,0.111,0.057
+uniform,40,none,0.9,True,SD,0.598,0.595,0.925,0.136,0.057
+uniform,200,high,0.6,False,AHP,0.436,0.277,0.839,0.439,0.051
+uniform,200,high,0.6,False,BWM,0.4,0.242,0.822,0.481,0.05
+uniform,200,high,0.6,False,BWM+Entropy(0.5),0.422,0.264,0.832,0.453,0.051
+uniform,200,high,0.6,False,BWM+Equal(0.5),0.431,0.265,0.836,0.451,0.051
+uniform,200,high,0.6,False,BWM+Mahalanobis-TOPSIS,0.387,0.242,0.818,0.484,
+uniform,200,high,0.6,False,CRITCLOUD(0.25),0.419,0.254,0.83,0.47,0.05
+uniform,200,high,0.6,False,CRITCLOUD(0.5),0.435,0.271,0.838,0.445,0.05
+uniform,200,high,0.6,False,CRITCLOUD(0.75),0.447,0.284,0.844,0.412,0.049
+uniform,200,high,0.6,False,CRITIC,0.45,0.287,0.846,0.416,0.049
+uniform,200,high,0.6,False,CRITIC-AHP,0.442,0.278,0.843,0.421,0.048
+uniform,200,high,0.6,False,CRITIC-DEMATEL,0.283,0.151,0.758,0.628,0.083
+uniform,200,high,0.6,False,Entropy,0.411,0.255,0.827,0.456,0.051
+uniform,200,high,0.6,False,Equal,0.443,0.276,0.842,0.419,0.051
+uniform,200,high,0.6,False,"GameTheory(CRITIC,BWM)",0.409,0.25,0.826,0.477,0.05
+uniform,200,high,0.6,False,MEREC,0.436,0.269,0.837,0.435,0.051
+uniform,200,high,0.6,False,Naive-oracle (theta/copies),0.379,0.218,0.807,0.506,0.032
+uniform,200,high,0.6,False,OPTCLOUD,0.384,0.226,0.81,0.505,
+uniform,200,high,0.6,False,Oracle (best linear),0.449,0.279,0.844,0.405,0.039
+uniform,200,high,0.6,False,SD,0.436,0.27,0.84,0.427,0.051
+uniform,200,high,0.6,True,AHP,0.41,0.241,0.815,0.531,0.046
+uniform,200,high,0.6,True,BWM,0.376,0.22,0.799,0.574,0.046
+uniform,200,high,0.6,True,BWM+Entropy(0.5),0.38,0.126,0.718,0.812,0.038
+uniform,200,high,0.6,True,BWM+Equal(0.5),0.405,0.24,0.813,0.534,0.046
+uniform,200,high,0.6,True,BWM+Mahalanobis-TOPSIS,0.366,0.178,0.763,0.755,
+uniform,200,high,0.6,True,CRITCLOUD(0.25),0.392,0.233,0.81,0.53,0.046
+uniform,200,high,0.6,True,CRITCLOUD(0.5),0.405,0.25,0.82,0.471,0.046
+uniform,200,high,0.6,True,CRITCLOUD(0.75),0.413,0.256,0.827,0.443,0.046
+uniform,200,high,0.6,True,CRITIC,0.413,0.255,0.828,0.436,0.046
+uniform,200,high,0.6,True,CRITIC-AHP,0.406,0.248,0.822,0.446,0.046
+uniform,200,high,0.6,True,CRITIC-DEMATEL,0.292,0.148,0.754,0.657,0.069
+uniform,200,high,0.6,True,Entropy,0.331,0.101,0.691,0.844,0.025
+uniform,200,high,0.6,True,Equal,0.418,0.25,0.82,0.524,0.046
+uniform,200,high,0.6,True,"GameTheory(CRITIC,BWM)",0.393,0.236,0.812,0.507,0.046
+uniform,200,high,0.6,True,MEREC,0.387,0.11,0.701,0.824,0.034
+uniform,200,high,0.6,True,Naive-oracle (theta/copies),0.343,0.193,0.778,0.697,0.03
+uniform,200,high,0.6,True,OPTCLOUD,0.371,0.203,0.791,0.626,
+uniform,200,high,0.6,True,Oracle (best linear),0.41,0.255,0.818,0.558,0.037
+uniform,200,high,0.6,True,SD,0.406,0.248,0.823,0.461,0.048
+uniform,200,high,0.9,False,AHP,0.591,0.456,0.922,0.195,0.09
+uniform,200,high,0.9,False,BWM,0.555,0.404,0.904,0.238,0.089
+uniform,200,high,0.9,False,BWM+Entropy(0.5),0.576,0.431,0.914,0.209,0.09
+uniform,200,high,0.9,False,BWM+Equal(0.5),0.585,0.44,0.919,0.211,0.09
+uniform,200,high,0.9,False,BWM+Mahalanobis-TOPSIS,0.527,0.374,0.891,0.287,
+uniform,200,high,0.9,False,CRITCLOUD(0.25),0.593,0.441,0.92,0.204,0.086
+uniform,200,high,0.9,False,CRITCLOUD(0.5),0.633,0.487,0.933,0.17,0.082
+uniform,200,high,0.9,False,CRITCLOUD(0.75),0.667,0.53,0.944,0.143,0.078
+uniform,200,high,0.9,False,CRITIC,0.687,0.548,0.949,0.128,0.074
+uniform,200,high,0.9,False,CRITIC-AHP,0.671,0.536,0.944,0.141,0.074
+uniform,200,high,0.9,False,CRITIC-DEMATEL,0.305,0.173,0.772,0.59,0.212
+uniform,200,high,0.9,False,Entropy,0.565,0.426,0.909,0.22,0.091
+uniform,200,high,0.9,False,Equal,0.596,0.464,0.926,0.18,0.09
+uniform,200,high,0.9,False,"GameTheory(CRITIC,BWM)",0.598,0.443,0.921,0.202,0.084
+uniform,200,high,0.9,False,MEREC,0.606,0.465,0.925,0.184,0.087
+uniform,200,high,0.9,False,Naive-oracle (theta/copies),0.626,0.471,0.927,0.198,0.043
+uniform,200,high,0.9,False,OPTCLOUD,0.467,0.3,0.853,0.392,
+uniform,200,high,0.9,False,Oracle (best linear),0.654,0.51,0.937,0.177,0.047
+uniform,200,high,0.9,False,SD,0.589,0.455,0.922,0.185,0.09
+uniform,200,high,0.9,True,AHP,0.57,0.356,0.878,0.405,0.079
+uniform,200,high,0.9,True,BWM,0.533,0.337,0.868,0.397,0.078
+uniform,200,high,0.9,True,BWM+Entropy(0.5),0.539,0.182,0.788,0.639,0.062
+uniform,200,high,0.9,True,BWM+Equal(0.5),0.563,0.354,0.878,0.366,0.079
+uniform,200,high,0.9,True,BWM+Mahalanobis-TOPSIS,0.505,0.271,0.833,0.595,
+uniform,200,high,0.9,True,CRITCLOUD(0.25),0.562,0.374,0.885,0.326,0.077
+uniform,200,high,0.9,True,CRITCLOUD(0.5),0.588,0.415,0.902,0.27,0.075
+uniform,200,high,0.9,True,CRITCLOUD(0.75),0.606,0.446,0.916,0.227,0.073
+uniform,200,high,0.9,True,CRITIC,0.613,0.465,0.922,0.213,0.071
+uniform,200,high,0.9,True,CRITIC-AHP,0.603,0.456,0.918,0.223,0.071
+uniform,200,high,0.9,True,CRITIC-DEMATEL,0.319,0.152,0.762,0.65,0.17
+uniform,200,high,0.9,True,Entropy,0.483,0.146,0.757,0.672,0.036
+uniform,200,high,0.9,True,Equal,0.576,0.353,0.88,0.386,0.079
+uniform,200,high,0.9,True,"GameTheory(CRITIC,BWM)",0.573,0.39,0.892,0.298,0.076
+uniform,200,high,0.9,True,MEREC,0.557,0.162,0.772,0.649,0.053
+uniform,200,high,0.9,True,Naive-oracle (theta/copies),0.556,0.373,0.883,0.436,0.041
+uniform,200,high,0.9,True,OPTCLOUD,0.476,0.264,0.835,0.507,
+uniform,200,high,0.9,True,Oracle (best linear),0.581,0.4,0.893,0.412,0.044
+uniform,200,high,0.9,True,SD,0.564,0.38,0.897,0.273,0.082
+uniform,200,moderate,0.6,False,AHP,0.444,0.285,0.844,0.389,0.036
+uniform,200,moderate,0.6,False,BWM,0.395,0.234,0.82,0.462,0.036
+uniform,200,moderate,0.6,False,BWM+Entropy(0.5),0.424,0.262,0.833,0.426,0.036
+uniform,200,moderate,0.6,False,BWM+Equal(0.5),0.436,0.276,0.84,0.403,0.036
+uniform,200,moderate,0.6,False,BWM+Mahalanobis-TOPSIS,0.381,0.224,0.811,0.485,
+uniform,200,moderate,0.6,False,CRITCLOUD(0.25),0.416,0.256,0.83,0.431,0.036
+uniform,200,moderate,0.6,False,CRITCLOUD(0.5),0.434,0.276,0.839,0.4,0.036
+uniform,200,moderate,0.6,False,CRITCLOUD(0.75),0.446,0.279,0.843,0.401,0.036
+uniform,200,moderate,0.6,False,CRITIC,0.448,0.28,0.844,0.379,0.036
+uniform,200,moderate,0.6,False,CRITIC-AHP,0.437,0.278,0.841,0.395,0.036
+uniform,200,moderate,0.6,False,CRITIC-DEMATEL,0.386,0.236,0.814,0.451,0.042
+uniform,200,moderate,0.6,False,Entropy,0.411,0.248,0.824,0.449,0.036
+uniform,200,moderate,0.6,False,Equal,0.455,0.298,0.847,0.382,0.036
+uniform,200,moderate,0.6,False,"GameTheory(CRITIC,BWM)",0.402,0.246,0.824,0.451,0.036
+uniform,200,moderate,0.6,False,MEREC,0.441,0.278,0.838,0.417,0.036
+uniform,200,moderate,0.6,False,Naive-oracle (theta/copies),0.4,0.249,0.821,0.429,0.031
+uniform,200,moderate,0.6,False,OPTCLOUD,0.353,0.202,0.789,0.524,
+uniform,200,moderate,0.6,False,Oracle (best linear),0.455,0.297,0.847,0.387,0.034
+uniform,200,moderate,0.6,False,SD,0.446,0.28,0.842,0.388,0.036
+uniform,200,moderate,0.6,True,AHP,0.412,0.252,0.821,0.482,0.035
+uniform,200,moderate,0.6,True,BWM,0.367,0.202,0.79,0.558,0.034
+uniform,200,moderate,0.6,True,BWM+Entropy(0.5),0.373,0.104,0.706,0.787,0.029
+uniform,200,moderate,0.6,True,BWM+Equal(0.5),0.403,0.236,0.814,0.497,0.035
+uniform,200,moderate,0.6,True,BWM+Mahalanobis-TOPSIS,0.357,0.158,0.757,0.732,
+uniform,200,moderate,0.6,True,CRITCLOUD(0.25),0.385,0.219,0.806,0.508,0.035
+uniform,200,moderate,0.6,True,CRITCLOUD(0.5),0.399,0.234,0.818,0.462,0.035
+uniform,200,moderate,0.6,True,CRITCLOUD(0.75),0.407,0.248,0.824,0.442,0.035
+uniform,200,moderate,0.6,True,CRITIC,0.406,0.254,0.823,0.43,0.035
+uniform,200,moderate,0.6,True,CRITIC-AHP,0.399,0.242,0.819,0.443,0.035
+uniform,200,moderate,0.6,True,CRITIC-DEMATEL,0.351,0.201,0.793,0.513,0.042
+uniform,200,moderate,0.6,True,Entropy,0.321,0.091,0.678,0.813,0.02
+uniform,200,moderate,0.6,True,Equal,0.42,0.26,0.827,0.446,0.035
+uniform,200,moderate,0.6,True,"GameTheory(CRITIC,BWM)",0.385,0.22,0.808,0.503,0.035
+uniform,200,moderate,0.6,True,MEREC,0.382,0.097,0.69,0.804,0.027
+uniform,200,moderate,0.6,True,Naive-oracle (theta/copies),0.367,0.195,0.781,0.632,0.03
+uniform,200,moderate,0.6,True,OPTCLOUD,0.335,0.177,0.77,0.623,
+uniform,200,moderate,0.6,True,Oracle (best linear),0.418,0.242,0.818,0.486,0.033
+uniform,200,moderate,0.6,True,SD,0.405,0.252,0.822,0.433,0.036
+uniform,200,moderate,0.9,False,AHP,0.675,0.529,0.946,0.133,0.053
+uniform,200,moderate,0.9,False,BWM,0.6,0.445,0.919,0.188,0.052
+uniform,200,moderate,0.9,False,BWM+Entropy(0.5),0.641,0.486,0.933,0.159,0.053
+uniform,200,moderate,0.9,False,BWM+Equal(0.5),0.663,0.517,0.941,0.142,0.053
+uniform,200,moderate,0.9,False,BWM+Mahalanobis-TOPSIS,0.543,0.375,0.895,0.236,
+uniform,200,moderate,0.9,False,CRITCLOUD(0.25),0.635,0.486,0.931,0.162,0.052
+uniform,200,moderate,0.9,False,CRITCLOUD(0.5),0.668,0.526,0.942,0.141,0.051
+uniform,200,moderate,0.9,False,CRITCLOUD(0.75),0.692,0.548,0.949,0.129,0.051
+uniform,200,moderate,0.9,False,CRITIC,0.699,0.549,0.952,0.122,0.051
+uniform,200,moderate,0.9,False,CRITIC-AHP,0.68,0.538,0.946,0.13,0.051
+uniform,200,moderate,0.9,False,CRITIC-DEMATEL,0.494,0.345,0.874,0.317,0.071
+uniform,200,moderate,0.9,False,Entropy,0.617,0.479,0.923,0.193,0.053
+uniform,200,moderate,0.9,False,Equal,0.694,0.55,0.951,0.118,0.053
+uniform,200,moderate,0.9,False,"GameTheory(CRITIC,BWM)",0.615,0.462,0.925,0.177,0.052
+uniform,200,moderate,0.9,False,MEREC,0.671,0.524,0.943,0.138,0.052
+uniform,200,moderate,0.9,False,Naive-oracle (theta/copies),0.661,0.518,0.941,0.135,0.04
+uniform,200,moderate,0.9,False,OPTCLOUD,0.491,0.324,0.864,0.338,
+uniform,200,moderate,0.9,False,Oracle (best linear),0.691,0.542,0.95,0.112,0.042
+uniform,200,moderate,0.9,False,SD,0.677,0.534,0.946,0.137,0.053
+uniform,200,moderate,0.9,True,AHP,0.611,0.454,0.918,0.253,0.049
+uniform,200,moderate,0.9,True,BWM,0.548,0.377,0.889,0.331,0.049
+uniform,200,moderate,0.9,True,BWM+Entropy(0.5),0.559,0.17,0.783,0.612,0.039
+uniform,200,moderate,0.9,True,BWM+Equal(0.5),0.598,0.437,0.913,0.274,0.049
+uniform,200,moderate,0.9,True,BWM+Mahalanobis-TOPSIS,0.514,0.288,0.844,0.521,
+uniform,200,moderate,0.9,True,CRITCLOUD(0.25),0.575,0.414,0.905,0.288,0.049
+uniform,200,moderate,0.9,True,CRITCLOUD(0.5),0.598,0.449,0.919,0.221,0.049
+uniform,200,moderate,0.9,True,CRITCLOUD(0.75),0.611,0.479,0.927,0.201,0.05
+uniform,200,moderate,0.9,True,CRITIC,0.613,0.482,0.927,0.201,0.049
+uniform,200,moderate,0.9,True,CRITIC-AHP,0.601,0.476,0.923,0.194,0.049
+uniform,200,moderate,0.9,True,CRITIC-DEMATEL,0.434,0.3,0.852,0.355,0.072
+uniform,200,moderate,0.9,True,Entropy,0.485,0.14,0.743,0.653,0.024
+uniform,200,moderate,0.9,True,Equal,0.622,0.471,0.925,0.224,0.049
+uniform,200,moderate,0.9,True,"GameTheory(CRITIC,BWM)",0.575,0.416,0.906,0.278,0.049
+uniform,200,moderate,0.9,True,MEREC,0.574,0.151,0.76,0.639,0.034
+uniform,200,moderate,0.9,True,Naive-oracle (theta/copies),0.586,0.403,0.895,0.371,0.038
+uniform,200,moderate,0.9,True,OPTCLOUD,0.473,0.296,0.854,0.394,
+uniform,200,moderate,0.9,True,Oracle (best linear),0.611,0.426,0.907,0.329,0.04
+uniform,200,moderate,0.9,True,SD,0.597,0.464,0.921,0.21,0.051
+uniform,200,none,0.6,False,AHP,0.398,0.217,0.809,0.412,0.025
+uniform,200,none,0.6,False,BWM,0.345,0.171,0.781,0.459,0.025
+uniform,200,none,0.6,False,BWM+Entropy(0.5),0.373,0.193,0.8,0.406,0.025
+uniform,200,none,0.6,False,BWM+Equal(0.5),0.387,0.201,0.805,0.404,0.025
+uniform,200,none,0.6,False,BWM+Mahalanobis-TOPSIS,0.339,0.17,0.777,0.468,
+uniform,200,none,0.6,False,CRITCLOUD(0.25),0.365,0.184,0.793,0.44,0.025
+uniform,200,none,0.6,False,CRITCLOUD(0.5),0.384,0.201,0.803,0.409,0.025
+uniform,200,none,0.6,False,CRITCLOUD(0.75),0.396,0.212,0.81,0.389,0.025
+uniform,200,none,0.6,False,CRITIC,0.397,0.21,0.81,0.39,0.025
+uniform,200,none,0.6,False,CRITIC-AHP,0.388,0.212,0.805,0.401,0.025
+uniform,200,none,0.6,False,CRITIC-DEMATEL,0.367,0.2,0.794,0.424,0.028
+uniform,200,none,0.6,False,Entropy,0.36,0.196,0.792,0.436,0.025
+uniform,200,none,0.6,False,Equal,0.409,0.224,0.815,0.383,0.025
+uniform,200,none,0.6,False,"GameTheory(CRITIC,BWM)",0.352,0.18,0.786,0.456,0.025
+uniform,200,none,0.6,False,MEREC,0.392,0.216,0.807,0.396,0.025
+uniform,200,none,0.6,False,Naive-oracle (theta/copies),0.409,0.224,0.815,0.383,0.025
+uniform,200,none,0.6,False,OPTCLOUD,0.297,0.141,0.749,0.519,
+uniform,200,none,0.6,False,Oracle (best linear),0.409,0.224,0.815,0.383,0.025
+uniform,200,none,0.6,False,SD,0.397,0.209,0.81,0.39,0.025
+uniform,200,none,0.6,True,AHP,0.362,0.194,0.79,0.456,0.025
+uniform,200,none,0.6,True,BWM,0.317,0.166,0.762,0.506,0.025
+uniform,200,none,0.6,True,BWM+Entropy(0.5),0.322,0.078,0.679,0.717,0.023
+uniform,200,none,0.6,True,BWM+Equal(0.5),0.354,0.196,0.786,0.465,0.025
+uniform,200,none,0.6,True,BWM+Mahalanobis-TOPSIS,0.316,0.132,0.733,0.661,
+uniform,200,none,0.6,True,CRITCLOUD(0.25),0.335,0.183,0.777,0.477,0.025
+uniform,200,none,0.6,True,CRITCLOUD(0.5),0.349,0.196,0.79,0.447,0.025
+uniform,200,none,0.6,True,CRITCLOUD(0.75),0.357,0.21,0.795,0.434,0.025
+uniform,200,none,0.6,True,CRITIC,0.356,0.207,0.793,0.445,0.025
+uniform,200,none,0.6,True,CRITIC-AHP,0.348,0.201,0.788,0.444,0.025
+uniform,200,none,0.6,True,CRITIC-DEMATEL,0.332,0.184,0.779,0.471,0.027
+uniform,200,none,0.6,True,Entropy,0.27,0.068,0.655,0.739,0.017
+uniform,200,none,0.6,True,Equal,0.372,0.209,0.798,0.44,0.025
+uniform,200,none,0.6,True,"GameTheory(CRITIC,BWM)",0.335,0.184,0.78,0.473,0.025
+uniform,200,none,0.6,True,MEREC,0.33,0.071,0.666,0.725,0.021
+uniform,200,none,0.6,True,Naive-oracle (theta/copies),0.372,0.209,0.798,0.44,0.025
+uniform,200,none,0.6,True,OPTCLOUD,0.275,0.144,0.741,0.539,
+uniform,200,none,0.6,True,Oracle (best linear),0.372,0.209,0.798,0.44,0.025
+uniform,200,none,0.6,True,SD,0.356,0.207,0.793,0.443,0.025
+uniform,200,none,0.9,False,AHP,0.677,0.532,0.942,0.118,0.025
+uniform,200,none,0.9,False,BWM,0.559,0.392,0.902,0.189,0.025
+uniform,200,none,0.9,False,BWM+Entropy(0.5),0.622,0.464,0.922,0.157,0.025
+uniform,200,none,0.9,False,BWM+Equal(0.5),0.651,0.502,0.935,0.127,0.025
+uniform,200,none,0.9,False,BWM+Mahalanobis-TOPSIS,0.549,0.385,0.897,0.201,
+uniform,200,none,0.9,False,CRITCLOUD(0.25),0.601,0.447,0.919,0.153,0.025
+uniform,200,none,0.9,False,CRITCLOUD(0.5),0.643,0.491,0.932,0.131,0.025
+uniform,200,none,0.9,False,CRITCLOUD(0.75),0.672,0.517,0.941,0.111,0.025
+uniform,200,none,0.9,False,CRITIC,0.677,0.524,0.941,0.115,0.025
+uniform,200,none,0.9,False,CRITIC-AHP,0.652,0.502,0.935,0.123,0.025
+uniform,200,none,0.9,False,CRITIC-DEMATEL,0.608,0.439,0.918,0.154,0.028
+uniform,200,none,0.9,False,Entropy,0.595,0.442,0.912,0.171,0.025
+uniform,200,none,0.9,False,Equal,0.707,0.56,0.951,0.099,0.025
+uniform,200,none,0.9,False,"GameTheory(CRITIC,BWM)",0.574,0.409,0.907,0.18,0.025
+uniform,200,none,0.9,False,MEREC,0.665,0.513,0.935,0.135,0.025
+uniform,200,none,0.9,False,Naive-oracle (theta/copies),0.707,0.56,0.951,0.099,0.025
+uniform,200,none,0.9,False,OPTCLOUD,0.467,0.296,0.851,0.299,
+uniform,200,none,0.9,False,Oracle (best linear),0.707,0.56,0.951,0.099,0.025
+uniform,200,none,0.9,False,SD,0.677,0.523,0.942,0.113,0.025
+uniform,200,none,0.9,True,AHP,0.6,0.43,0.909,0.203,0.025
+uniform,200,none,0.9,True,BWM,0.513,0.332,0.866,0.319,0.025
+uniform,200,none,0.9,True,BWM+Entropy(0.5),0.527,0.126,0.746,0.578,0.023
+uniform,200,none,0.9,True,BWM+Equal(0.5),0.584,0.412,0.9,0.248,0.025
+uniform,200,none,0.9,True,BWM+Mahalanobis-TOPSIS,0.51,0.246,0.824,0.487,
+uniform,200,none,0.9,True,CRITCLOUD(0.25),0.547,0.384,0.887,0.266,0.025
+uniform,200,none,0.9,True,CRITCLOUD(0.5),0.575,0.422,0.907,0.195,0.025
+uniform,200,none,0.9,True,CRITCLOUD(0.75),0.59,0.448,0.916,0.167,0.025
+uniform,200,none,0.9,True,CRITIC,0.587,0.444,0.915,0.179,0.025
+uniform,200,none,0.9,True,CRITIC-AHP,0.569,0.422,0.907,0.193,0.025
+uniform,200,none,0.9,True,CRITIC-DEMATEL,0.54,0.392,0.896,0.206,0.027
+uniform,200,none,0.9,True,Entropy,0.435,0.095,0.708,0.609,0.018
+uniform,200,none,0.9,True,Equal,0.621,0.458,0.92,0.19,0.025
+uniform,200,none,0.9,True,"GameTheory(CRITIC,BWM)",0.548,0.388,0.89,0.246,0.025
+uniform,200,none,0.9,True,MEREC,0.545,0.108,0.723,0.592,0.022
+uniform,200,none,0.9,True,Naive-oracle (theta/copies),0.621,0.458,0.92,0.19,0.025
+uniform,200,none,0.9,True,OPTCLOUD,0.435,0.267,0.831,0.361,
+uniform,200,none,0.9,True,Oracle (best linear),0.621,0.458,0.92,0.19,0.025
+uniform,200,none,0.9,True,SD,0.588,0.444,0.915,0.178,0.025

@@ -1,0 +1,11 @@
+,remove_%,add_new_%,add_duplicate_%
+Equal,0.301,0.267,0.0
+Entropy,0.04,0.071,0.0
+CRITIC,0.123,0.136,0.0
+BWM,0.483,0.298,0.0
+CRITCLOUD(0.5),0.31,0.241,0.0
+CRITIC-AHP,0.296,0.219,0.0
+CRITIC-DEMATEL,0.162,0.198,0.0
+"GameTheory(CRITIC,BWM)",0.345,0.241,0.0
+BWM+Mahalanobis-TOPSIS,0.673,0.568,0.36
+OPTCLOUD(sign-fixed),4.785,5.258,4.593

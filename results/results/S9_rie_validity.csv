@@ -1,0 +1,7 @@
+theta,structure,"spearman(RIE,tau) across methods"
+dirichlet,high,0.002
+dirichlet,moderate,0.299
+dirichlet,none,-0.374
+uniform,high,-0.167
+uniform,moderate,0.108
+uniform,none,0.649

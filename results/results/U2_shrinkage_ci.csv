@@ -1,0 +1,13 @@
+theta,structure,contrast,mean,ci_lo,ci_hi,n
+dirichlet,high,CRITCLOUD(0.5) - BWM+Equal(0.5),0.0111,0.0105,0.0118,4000
+dirichlet,high,CRITIC - Equal,0.0155,0.0133,0.0175,4000
+dirichlet,moderate,CRITCLOUD(0.5) - BWM+Equal(0.5),-0.0011,-0.0015,-0.0007,4000
+dirichlet,moderate,CRITIC - Equal,-0.0053,-0.0064,-0.0042,4000
+dirichlet,none,CRITCLOUD(0.5) - BWM+Equal(0.5),-0.0054,-0.0058,-0.005,4000
+dirichlet,none,CRITIC - Equal,-0.014,-0.015,-0.013,4000
+uniform,high,CRITCLOUD(0.5) - BWM+Equal(0.5),0.0181,0.0173,0.0189,4000
+uniform,high,CRITIC - Equal,0.0297,0.0283,0.0312,4000
+uniform,moderate,CRITCLOUD(0.5) - BWM+Equal(0.5),-0.0004,-0.0008,0.0001,4000
+uniform,moderate,CRITIC - Equal,-0.0082,-0.009,-0.0075,4000
+uniform,none,CRITCLOUD(0.5) - BWM+Equal(0.5),-0.0066,-0.007,-0.0062,4000
+uniform,none,CRITIC - Equal,-0.0249,-0.0257,-0.0241,4000

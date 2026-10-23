@@ -1,0 +1,5 @@
+option,A_B,A_W,changes,CR_I,passes_threshold,ordinal_violations,xi_L
+Original (paper),"[1, 2, 8, 3, 5, 3, 2, 4, 4]","[8, 5, 1, 2, 4, 5, 6, 2, 3]",0,0.214,True,4,0.0455
+"A: minimal change, ordinal fixed","[np.int64(1), np.int64(2), np.int64(8), np.int64(4), np.int64(4), np.int64(3), np.int64(2), np.int64(4), np.int64(4)]","[np.int64(8), np.int64(5), np.int64(1), np.int64(2), np.int64(4), np.int64(5), np.int64(6), np.int64(2), np.int64(3)]",2,0.143,True,0,0.0393
+"B: minimal change, ordinal fixed, CR_I <= 0.10","[np.int64(1), np.int64(2), np.int64(8), np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(4), np.int64(3)]","[np.int64(8), np.int64(5), np.int64(1), np.int64(2), np.int64(4), np.int64(5), np.int64(6), np.int64(2), np.int64(3)]",4,0.071,True,0,0.0269
+"C: keep A_B, derive A_W = a_BW / a_Bj","[np.int64(1), np.int64(2), np.int64(8), np.int64(3), np.int64(5), np.int64(3), np.int64(2), np.int64(4), np.int64(4)]","[8, 4, 1, 3, 2, 3, 4, 2, 2]",9,0.036,True,0,0.0097

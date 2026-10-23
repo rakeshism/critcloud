@@ -1,0 +1,37 @@
+theta,vs,mean_diff,ci_lo,ci_hi,n
+dirichlet,AHP,-0.0092,-0.0101,-0.0083,12000
+dirichlet,BWM,0.011,0.0102,0.0118,12000
+dirichlet,BWM+Entropy(0.5),0.0273,0.0264,0.0282,12000
+dirichlet,BWM+Equal(0.5),0.0015,0.0012,0.0018,12000
+dirichlet,BWM+Mahalanobis-TOPSIS,0.0273,0.0261,0.0284,12000
+dirichlet,CRITCLOUD(0.25),0.0005,0.0,0.001,12000
+dirichlet,CRITCLOUD(0.75),0.0387,0.0379,0.0394,12000
+dirichlet,CRITIC,0.1351,0.1333,0.1368,12000
+dirichlet,CRITIC-AHP,-0.0055,-0.0065,-0.0045,12000
+dirichlet,CRITIC-DEMATEL,0.2081,0.2054,0.2108,12000
+dirichlet,Entropy,0.1958,0.1932,0.1982,12000
+dirichlet,Equal,0.1338,0.132,0.1357,12000
+dirichlet,"GameTheory(CRITIC,BWM)",0.0066,0.0059,0.0072,12000
+dirichlet,MEREC,0.1585,0.1563,0.1607,12000
+dirichlet,Naive-oracle (theta/copies),0.0046,0.0033,0.0058,12000
+dirichlet,OPTCLOUD,0.127,0.1242,0.1298,12000
+dirichlet,Oracle (best linear),-0.0081,-0.0092,-0.0071,12000
+dirichlet,SD,0.1442,0.1423,0.1462,12000
+uniform,AHP,-0.0068,-0.0076,-0.006,12000
+uniform,BWM,0.0495,0.0488,0.0502,12000
+uniform,BWM+Entropy(0.5),0.0344,0.0337,0.0352,12000
+uniform,BWM+Equal(0.5),0.0037,0.0033,0.0041,12000
+uniform,BWM+Mahalanobis-TOPSIS,0.0819,0.0806,0.0831,12000
+uniform,CRITCLOUD(0.25),0.0234,0.023,0.0238,12000
+uniform,CRITCLOUD(0.75),-0.0152,-0.0156,-0.0148,12000
+uniform,CRITIC,-0.0179,-0.0186,-0.0172,12000
+uniform,CRITIC-AHP,-0.0054,-0.0062,-0.0046,12000
+uniform,CRITIC-DEMATEL,0.0969,0.095,0.0987,12000
+uniform,Entropy,0.0757,0.0743,0.0771,12000
+uniform,Equal,-0.0191,-0.0199,-0.0183,12000
+uniform,"GameTheory(CRITIC,BWM)",0.0303,0.0297,0.0308,12000
+uniform,MEREC,0.0182,0.0171,0.0193,12000
+uniform,Naive-oracle (theta/copies),0.0067,0.0054,0.008,12000
+uniform,OPTCLOUD,0.1175,0.1158,0.1192,12000
+uniform,Oracle (best linear),-0.0225,-0.0236,-0.0215,12000
+uniform,SD,-0.0018,-0.0025,-0.0011,12000
