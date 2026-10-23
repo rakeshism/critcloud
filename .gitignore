@@ -1,0 +1,4 @@
+qws.csv
+__pycache__/
+*.pyc
+paper/

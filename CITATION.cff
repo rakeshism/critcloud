@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "CRITCLOUD: code, ground-truth simulator and results"
+authors:
+  - family-names: Mishra
+    given-names: Prasanta Kumar
+  - family-names: Kumari
+    given-names: Binita
+  - family-names: Mohapatra
+    given-names: Soumya Snighda
+  - family-names: Bakro
+    given-names: Mhamad
+  - family-names: Kumar
+    given-names: Rakesh Ranjan
+  - family-names: Muduli
+    given-names: Debendra
+version: "2.0"
