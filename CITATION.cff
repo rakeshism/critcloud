@@ -6,10 +6,10 @@ authors:
     given-names: Prasanta Kumar
   - family-names: Kumari
     given-names: Binita
-  - family-names: Bakro
-    given-names: Mhamad
   - family-names: Kumar
     given-names: Rakesh Ranjan
+ - family-names: Bakro
+    given-names: Mhamad
   - family-names: Muduli
     given-names: Debendra
 version: "2.0"
